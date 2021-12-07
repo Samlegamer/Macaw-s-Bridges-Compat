@@ -7,7 +7,7 @@ import fr.samlegamer.mods.RecipesGeneratorMacawsBridges;
 
 public class Main
 {
-	public static final String LOCATION = "C://Users/Samle/3D Objects/Jsons de byg mb/";  //Path
+	public static final String LOCATION = "C://Users/ExampleUser/Documents/ExampleFolder/";  //Path
 	public static final String MODID = "macawsbridgesbop"; //The modid of compat, No :
 	public static final String TextureLocationFormodid = "biomesoplenty:block"; //modid:block (don't change "block")
 	
