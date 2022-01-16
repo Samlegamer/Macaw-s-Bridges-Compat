@@ -1,0 +1,5 @@
+{"parent": "mcwbridges:block/support_pier/wooden/parent/pillar_side",
+"textures":{"0": "bayou_blues:block/cypress_log",
+"1": "bayou_blues:block/cypress_log_top",
+"2": "bayou_blues:block/cypress_planks",
+"particle": "bayou_blues:block/cypress_log"}}
