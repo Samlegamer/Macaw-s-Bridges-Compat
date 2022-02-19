@@ -1,0 +1,28 @@
+{
+	"itemGroup.mbs_tab": "Macaw's Bridges - Shroomed",
+	
+	"block.mcwbridgesshroomed.blue_hard_mushroom_log_bridge_middle":"Blue Hard Mushroom Bridge",
+	"block.mcwbridgesshroomed.hard_mushroom_log_bridge_middle":"Hard Mushroom Bridge",
+	"block.mcwbridgesshroomed.orange_hard_mushroom_log_bridge_middle":"Orange Hard Mushroom Bridge",
+	"block.mcwbridgesshroomed.purple_hard_mushroom_log_bridge_middle":"Purple Hard Mushroom Bridge",
+	
+	"block.mcwbridgesshroomed.rope_blue_hard_mushroom_bridge":"Rope Blue Hard Mushroom Bridge",
+	"block.mcwbridgesshroomed.rope_hard_mushroom_bridge":"Rope Hard Mushroom Bridge",
+	"block.mcwbridgesshroomed.rope_orange_hard_mushroom_bridge":"Rope Orange Hard Mushroom Bridge",
+	"block.mcwbridgesshroomed.rope_purple_hard_mushroom_bridge":"Rope Purple Hard Mushroom Bridge",
+	
+	"block.mcwbridgesshroomed.blue_hard_mushroom_rail_bridge":"Blue Hard Mushroom Rail Bridge",
+	"block.mcwbridgesshroomed.hard_mushroom_rail_bridge":"Hard Mushroom Rail Bridge",
+	"block.mcwbridgesshroomed.orange_hard_mushroom_rail_bridge":"Orange Hard Mushroom Rail Bridge",
+	"block.mcwbridgesshroomed.purple_hard_mushroom_rail_bridge":"Purple Hard Mushroom Rail Bridge",
+	
+	"block.mcwbridgesshroomed.blue_hard_mushroom_bridge_pier":"Blue Hard Mushroom Bridge Support",
+	"block.mcwbridgesshroomed.hard_mushroom_bridge_pier":"Hard Mushroom Bridge Support",
+	"block.mcwbridgesshroomed.orange_hard_mushroom_bridge_pier":"Orange Hard Mushroom Bridge Support",
+	"block.mcwbridgesshroomed.purple_hard_mushroom_bridge_pier":"Purple Hard Mushroom Bridge Support",
+	
+	"block.mcwbridgesshroomed.blue_hard_mushroom_log_bridge_stair":"Blue Hard Mushroom Bridge Stair",
+	"block.mcwbridgesshroomed.hard_mushroom_log_bridge_stair":"Hard Mushroom Bridge Stair",
+	"block.mcwbridgesshroomed.orange_hard_mushroom_log_bridge_stair":"Orange Hard Mushroom Bridge Stair",
+	"block.mcwbridgesshroomed.purple_hard_mushroom_log_bridge_stair":"Purple Hard Mushroom Bridge Stair"
+}

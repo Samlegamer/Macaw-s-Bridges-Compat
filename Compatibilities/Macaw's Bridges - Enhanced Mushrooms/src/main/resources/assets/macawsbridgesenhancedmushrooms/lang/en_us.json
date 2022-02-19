@@ -1,0 +1,13 @@
+{
+	"itemGroup.mbenhancedmush_tab": "Macaw's Bridges - Enhanced Mushrooms",
+	"block.macawsbridgesenhancedmushrooms.brown_mushroom_log_bridge_middle": "Brown Mushroom Bridge",
+	"block.macawsbridgesenhancedmushrooms.red_mushroom_log_bridge_middle": "Red Mushroom Bridge",
+	"block.macawsbridgesenhancedmushrooms.rope_brown_mushroom_bridge": "Rope Brown Mushroom Bridge",
+	"block.macawsbridgesenhancedmushrooms.rope_red_mushroom_bridge": "Rope Red Mushroom Bridge",
+    "block.macawsbridgesenhancedmushrooms.brown_mushroom_bridge_pier": "Brown Mushroom Bridge Support",
+    "block.macawsbridgesenhancedmushrooms.red_mushroom_bridge_pier": "Red Mushroom Bridge Support",
+    "block.macawsbridgesenhancedmushrooms.brown_mushroom_log_bridge_stair": "Brown Mushroom Bridge Stair",
+	"block.macawsbridgesenhancedmushrooms.red_mushroom_log_bridge_stair": "Red Mushroom Bridge Stair",
+    "block.macawsbridgesenhancedmushrooms.brown_mushroom_rail_bridge": "Brown Mushroom Rail Bridge",
+    "block.macawsbridgesenhancedmushrooms.red_mushroom_rail_bridge": "Red Mushroom Rail Bridge"
+}
