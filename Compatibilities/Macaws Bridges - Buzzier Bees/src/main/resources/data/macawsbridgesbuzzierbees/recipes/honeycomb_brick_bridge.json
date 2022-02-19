@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "buzzier_bees:honeycomb_brick_wall"
+        },
+        
+        "W":
+        {
+            "item": "buzzier_bees:honeycomb_brick_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbuzzierbees:honeycomb_brick_bridge",
+        "count": 4
+    }
+}

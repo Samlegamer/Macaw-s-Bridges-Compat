@@ -1,0 +1,9 @@
+{
+	"itemGroup.mbbb_tab": "Macaw's Bridges - Buzzier Bees",
+	"block.macawsbridgesbuzzierbees.honeycomb_brick_bridge_stair": "Honeycomb Brick Bridge Stair",
+	"block.macawsbridgesbuzzierbees.honeycomb_tile_bridge_stair": "Honeycomb Tile Bridge Stair",
+	"block.macawsbridgesbuzzierbees.honeycomb_brick_bridge_pier": "Honeycomb Brick Bridge Support",
+	"block.macawsbridgesbuzzierbees.honeycomb_tile_bridge_pier": "Honeycomb Tile Bridge Support",
+	"block.macawsbridgesbuzzierbees.honeycomb_brick_bridge": "Honeycomb Brick Bridge",
+	"block.macawsbridgesbuzzierbees.honeycomb_tile_bridge": "Honeycomb Tile Bridge"	
+}
