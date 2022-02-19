@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "bayou_blues:cypress_fence"
+        },
+        
+        "W":
+        {
+            "item": "bayou_blues:cypress_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesbayoublues:cypress_log_bridge_middle",
+        "count": 4
+    }
+}
