@@ -1,5 +1,0 @@
-{"parent":"mcwbridges:block/bridge/rail/parent/side_right",
-"textures":{"0": "bayou_blues:block/cypress_log",
-"2":"bayou_blues:block/cypress_planks",
-"3":"bayou_blues:block/cypress_log_top",
-"particle":"bayou_blues:block/cypress_planks"}}
