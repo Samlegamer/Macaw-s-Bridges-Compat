@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomesoplenty:dead_fence"
+        },
+        
+        "W":
+        {
+            "item": "biomesoplenty:dead_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbop:dead_rail_bridge",
+        "count": 4
+    }
+}

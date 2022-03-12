@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomesoplenty:orange_sandstone_wall"
+        },
+        
+        "W":
+        {
+            "item": "biomesoplenty:orange_sandstone_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbop:orange_sandstone_bridge_middle",
+        "count": 4
+    }
+}

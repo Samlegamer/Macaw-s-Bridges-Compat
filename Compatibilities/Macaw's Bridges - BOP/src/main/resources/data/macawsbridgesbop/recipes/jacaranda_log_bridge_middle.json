@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomesoplenty:jacaranda_fence"
+        },
+        
+        "W":
+        {
+            "item": "biomesoplenty:jacaranda_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbop:jacaranda_log_bridge_middle",
+        "count": 4
+    }
+}

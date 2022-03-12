@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomesoplenty:hellbark_fence"
+        },
+        
+        "W":
+        {
+            "item": "biomesoplenty:hellbark_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbop:hellbark_rail_bridge",
+        "count": 4
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomesoplenty:mud_brick_wall"
+        },
+        
+        "W":
+        {
+            "item": "biomesoplenty:mud_brick_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbop:mud_brick_bridge_middle",
+        "count": 4
+    }
+}

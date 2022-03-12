@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomesoplenty:magic_fence"
+        },
+        
+        "W":
+        {
+            "item": "biomesoplenty:magic_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbop:magic_rail_bridge",
+        "count": 4
+    }
+}

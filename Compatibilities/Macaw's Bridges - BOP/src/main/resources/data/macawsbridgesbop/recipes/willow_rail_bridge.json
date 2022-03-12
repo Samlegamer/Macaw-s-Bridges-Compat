@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomesoplenty:willow_fence"
+        },
+        
+        "W":
+        {
+            "item": "biomesoplenty:willow_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbop:willow_rail_bridge",
+        "count": 4
+    }
+}

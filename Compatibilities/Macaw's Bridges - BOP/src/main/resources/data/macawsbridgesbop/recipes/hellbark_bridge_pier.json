@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomesoplenty:hellbark_fence"
+        },
+        
+        "W":
+        {
+            "item": "biomesoplenty:hellbark_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbop:hellbark_bridge_pier",
+        "count": 3
+    }
+}

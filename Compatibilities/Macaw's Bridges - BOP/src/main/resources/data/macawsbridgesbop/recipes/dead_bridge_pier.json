@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomesoplenty:dead_fence"
+        },
+        
+        "W":
+        {
+            "item": "biomesoplenty:dead_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbop:dead_bridge_pier",
+        "count": 3
+    }
+}

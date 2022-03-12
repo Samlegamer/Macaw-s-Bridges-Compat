@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomesoplenty:umbran_fence"
+        },
+        
+        "W":
+        {
+            "item": "biomesoplenty:umbran_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbop:umbran_bridge_pier",
+        "count": 3
+    }
+}

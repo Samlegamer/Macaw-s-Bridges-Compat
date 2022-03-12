@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "minecraft:string"
+        },
+        
+        "W":
+        {
+            "item": "biomesoplenty:hellbark_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbop:rope_hellbark_bridge",
+        "count": 4
+    }
+}
