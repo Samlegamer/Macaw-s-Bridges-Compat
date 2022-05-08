@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+issueTrackerURL=""
+
+[[mods]]
+modId="mcwbridgesabnormals"
+version="${file.jarVersion}"
+displayName="Macaw's Bridges - Abnormals"
+displayURL=""
+logoFile="examplemod.png"
+credits=""
+authors="Samlegamer"
+description='''
+Support :
+- Buzzier Bees
+- Atmospheric
+- Autumnity
+- Environmental
+- Upgrade Aquatic
+- Endergetic
+'''
+
+[[dependencies.mcwbridgesabnormals]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.mcwbridgesabnormals]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
