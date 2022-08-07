@@ -1,4 +1,0 @@
-{"parent": "mcwbridges:block/bridge/bridge_stone/parent/base_torch",
-"textures":{"1": "buzzier_bees:block/honeycomb_bricks",
-"3": "minecraft:block/torch",
-"particle": "buzzier_bees:block/honeycomb_bricks"}}
