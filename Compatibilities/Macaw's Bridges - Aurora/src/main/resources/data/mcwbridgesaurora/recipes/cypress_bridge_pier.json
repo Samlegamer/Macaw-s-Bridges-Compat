@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "bayou_blues:cypress_fence"
+        },
+        
+        "W":
+        {
+            "item": "bayou_blues:cypress_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesaurora:cypress_bridge_pier",
+        "count": 3
+    },
+    "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bayou_blues"
+    }
+  ]
+}
