@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "enhanced_mushrooms:red_mushroom_fence"
+        },
+        
+        "W":
+        {
+            "item": "enhanced_mushrooms:red_mushroom_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesaurora:red_mushroom_rail_bridge",
+        "count": 4
+    },
+    "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enhanced_mushrooms"
+    }
+  ]
+}
