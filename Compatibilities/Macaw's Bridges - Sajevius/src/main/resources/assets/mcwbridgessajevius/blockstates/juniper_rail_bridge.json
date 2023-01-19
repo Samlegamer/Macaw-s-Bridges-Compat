@@ -1,0 +1,15 @@
+{
+    "variants": {                                                                        
+        "facing=north,powered=false":  { "model": "mcwbridgessajevius:block/bridge/rail/juniper", "y": 90},
+		"facing=east,powered=false":  { "model": "mcwbridgessajevius:block/bridge/rail/juniper"},
+		"facing=south,powered=false":  { "model": "mcwbridgessajevius:block/bridge/rail/juniper", "y": 90},
+		"facing=west,powered=false":  { "model": "mcwbridgessajevius:block/bridge/rail/juniper"},
+
+		"facing=north,powered=true":  { "model": "mcwbridgessajevius:block/bridge/rail/juniper_powered", "y": 90},
+		"facing=east,powered=true":  { "model": "mcwbridgessajevius:block/bridge/rail/juniper_powered"},
+		"facing=south,powered=true":  { "model": "mcwbridgessajevius:block/bridge/rail/juniper_powered", "y": 90},
+		"facing=west,powered=true":  { "model": "mcwbridgessajevius:block/bridge/rail/juniper_powered"}			
+    }
+}
+
+

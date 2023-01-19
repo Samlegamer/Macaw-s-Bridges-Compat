@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
+
+[[mods]]
+modId="mcwbridgessajevius"
+version="1.16.5-1.0"
+displayName="Macaw's Bridges - Sajevius"
+displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+logoFile="icon.png"
+credits=""
+authors="Samlegamer"
+description='''
+Multi-Compatibilities for Sajevius Mod Author !
+Support:
+- Betterlands
+- Shroomed
+'''
+
+[[dependencies.mcwbridgessajevius]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mcwbridgessajevius]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
