@@ -66,36 +66,56 @@ public class MBSBlocksRegistry
 	public static final RegistryObject<Block> juniper_rope_bridge_stair = add("betterlands", "juniper_rope_bridge_stair", () -> new Iron_Stair(AbstractBlock.Properties.of(Material.WOOD).strength(0.6F).sound(SoundType.WOOD).harvestTool(ToolType.AXE)));
 	public static final RegistryObject<Block> juniper_rail_bridge = add("betterlands", "juniper_rail_bridge", () -> new Rail_Bridge(AbstractBlock.Properties.of(Material.WOOD).noOcclusion().strength(0.6F).sound(SoundType.WOOD).harvestTool(ToolType.AXE)));
 	
-	public static RegistryObject<Block> BridgeStoneAll, PierStoneAll, StairStoneAll;
+	public static final RegistryObject<Block> black_terracotta_bricks_bridge = add("betterlands", "black_terracotta_bricks_bridge", () -> new Log_Bridge(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> blue_terracotta_bricks_bridge = add("betterlands", "blue_terracotta_bricks_bridge", () -> new Log_Bridge(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> brown_terracotta_bricks_bridge = add("betterlands", "brown_terracotta_bricks_bridge", () -> new Log_Bridge(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> claystone_bricks_bridge = add("betterlands", "claystone_bricks_bridge", () -> new Log_Bridge(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> cyan_terracotta_bricks_bridge = add("betterlands", "cyan_terracotta_bricks_bridge", () -> new Log_Bridge(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> gray_terracotta_bricks_bridge = add("betterlands", "gray_terracotta_bricks_bridge", () -> new Log_Bridge(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> green_terracotta_bricks_bridge = add("betterlands", "green_terracotta_bricks_bridge", () -> new Log_Bridge(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> light_blue_terracotta_bricks_bridge = add("betterlands", "light_blue_terracotta_bricks_bridge", () -> new Log_Bridge(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> light_gray_terracotta_bricks_bridge = add("betterlands", "light_gray_terracotta_bricks_bridge", () -> new Log_Bridge(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> lime_terracotta_bricks_bridge = add("betterlands", "lime_terracotta_bricks_bridge", () -> new Log_Bridge(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> magenta_terracotta_bricks_bridge = add("betterlands", "magenta_terracotta_bricks_bridge", () -> new Log_Bridge(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> orange_terracotta_bricks_bridge = add("betterlands", "orange_terracotta_bricks_bridge", () -> new Log_Bridge(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> red_terracotta_bricks_bridge = add("betterlands", "red_terracotta_bricks_bridge", () -> new Log_Bridge(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> terracotta_bricks_bridge = add("betterlands", "terracotta_bricks_bridge", () -> new Log_Bridge(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> white_terracotta_bricks_bridge = add("betterlands", "white_terracotta_bricks_bridge", () -> new Log_Bridge(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> yellow_terracotta_bricks_bridge = add("betterlands", "yellow_terracotta_bricks_bridge", () -> new Log_Bridge(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+
+	public static final RegistryObject<Block> black_terracotta_bricks_bridge_pier = add("betterlands", "black_terracotta_bricks_bridge_pier", () -> new Support_Pillar(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> blue_terracotta_bricks_bridge_pier = add("betterlands", "blue_terracotta_bricks_bridge_pier", () -> new Support_Pillar(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> brown_terracotta_bricks_bridge_pier = add("betterlands", "brown_terracotta_bricks_bridge_pier", () -> new Support_Pillar(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> claystone_bricks_bridge_pier = add("betterlands", "claystone_bricks_bridge_pier", () -> new Support_Pillar(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> cyan_terracotta_bricks_bridge_pier = add("betterlands", "cyan_terracotta_bricks_bridge_pier", () -> new Support_Pillar(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> gray_terracotta_bricks_bridge_pier = add("betterlands", "gray_terracotta_bricks_bridge_pier", () -> new Support_Pillar(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> green_terracotta_bricks_bridge_pier = add("betterlands", "green_terracotta_bricks_bridge_pier", () -> new Support_Pillar(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> light_blue_terracotta_bricks_bridge_pier = add("betterlands", "light_blue_terracotta_bricks_bridge_pier", () -> new Support_Pillar(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> light_gray_terracotta_bricks_bridge_pier = add("betterlands", "light_gray_terracotta_bricks_bridge_pier", () -> new Support_Pillar(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> lime_terracotta_bricks_bridge_pier = add("betterlands", "lime_terracotta_bricks_bridge_pier", () -> new Support_Pillar(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> magenta_terracotta_bricks_bridge_pier = add("betterlands", "magenta_terracotta_bricks_bridge_pier", () -> new Support_Pillar(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> orange_terracotta_bricks_bridge_pier = add("betterlands", "orange_terracotta_bricks_bridge_pier", () -> new Support_Pillar(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> red_terracotta_bricks_bridge_pier = add("betterlands", "red_terracotta_bricks_bridge_pier", () -> new Support_Pillar(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> terracotta_bricks_bridge_pier = add("betterlands", "terracotta_bricks_bridge_pier", () -> new Support_Pillar(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> white_terracotta_bricks_bridge_pier = add("betterlands", "white_terracotta_bricks_bridge_pier", () -> new Support_Pillar(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> yellow_terracotta_bricks_bridge_pier = add("betterlands", "yellow_terracotta_bricks_bridge_pier", () -> new Support_Pillar(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
 	
-	public static void registryBetterLandStones()
-	{
-		ArrayList<String> STONES = new ArrayList<>();
-
-		STONES.add("black_terracotta");
-		STONES.add("blue_terracotta");
-		STONES.add("brown_terracotta");
-		STONES.add("claystone");
-		STONES.add("cyan_terracotta");
-		STONES.add("gray_terracotta");
-		STONES.add("green_terracotta");
-		STONES.add("light_blue_terracotta");
-		STONES.add("light_gray_terracotta");
-		STONES.add("lime_terracotta");
-		STONES.add("magenta_terracotta");
-		STONES.add("orange_terracotta");
-		STONES.add("red_terracotta");
-		STONES.add("terracotta");
-		STONES.add("white_terracotta");
-		STONES.add("yellow_terracotta");
-
-		for(String i : STONES)
-		{
-			BridgeStoneAll = add("betterlands", ""+i+"_bricks_bridge", () -> new Log_Bridge(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
-			PierStoneAll = add("betterlands", ""+i+"_bricks_bridge_pier", () -> new Support_Pillar(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
-			StairStoneAll = add("betterlands", ""+i+"_bricks_bridge_stair", () -> new Iron_Stair(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
-		}
-	}
+	public static final RegistryObject<Block> black_terracotta_bricks_bridge_stair = add("betterlands", "black_terracotta_bricks_bridge_stair", () -> new Iron_Stair(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> blue_terracotta_bricks_bridge_stair = add("betterlands", "blue_terracotta_bricks_bridge_stair", () -> new Iron_Stair(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> brown_terracotta_bricks_bridge_stair = add("betterlands", "brown_terracotta_bricks_bridge_stair", () -> new Iron_Stair(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> claystone_bricks_bridge_stair = add("betterlands", "claystone_bricks_bridge_stair", () -> new Iron_Stair(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> cyan_terracotta_bricks_bridge_stair = add("betterlands", "cyan_terracotta_bricks_bridge_stair", () -> new Iron_Stair(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> gray_terracotta_bricks_bridge_stair = add("betterlands", "gray_terracotta_bricks_bridge_stair", () -> new Iron_Stair(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> green_terracotta_bricks_bridge_stair = add("betterlands", "green_terracotta_bricks_bridge_stair", () -> new Iron_Stair(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> light_blue_terracotta_bricks_bridge_stair = add("betterlands", "light_blue_terracotta_bricks_bridge_stair", () -> new Iron_Stair(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> light_gray_terracotta_bricks_bridge_stair = add("betterlands", "light_gray_terracotta_bricks_bridge_stair", () -> new Iron_Stair(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> lime_terracotta_bricks_bridge_stair = add("betterlands", "lime_terracotta_bricks_bridge_stair", () -> new Iron_Stair(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> magenta_terracotta_bricks_bridge_stair = add("betterlands", "magenta_terracotta_bricks_bridge_stair", () -> new Iron_Stair(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> orange_terracotta_bricks_bridge_stair = add("betterlands", "orange_terracotta_bricks_bridge_stair", () -> new Iron_Stair(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> red_terracotta_bricks_bridge_stair = add("betterlands", "red_terracotta_bricks_bridge_stair", () -> new Iron_Stair(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> terracotta_bricks_bridge_stair = add("betterlands", "terracotta_bricks_bridge_stair", () -> new Iron_Stair(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> white_terracotta_bricks_bridge_stair = add("betterlands", "white_terracotta_bricks_bridge_stair", () -> new Iron_Stair(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> yellow_terracotta_bricks_bridge_stair = add("betterlands", "yellow_terracotta_bricks_bridge_stair", () -> new Iron_Stair(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).strength(3.0F, 5.0F).sound(SoundType.STONE)));
 	
 	public static RegistryObject<Block> add(String modid, String name, Supplier<? extends Block> supplier)
     {
