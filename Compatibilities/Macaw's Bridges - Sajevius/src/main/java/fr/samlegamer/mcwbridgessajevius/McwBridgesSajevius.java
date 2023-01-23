@@ -25,10 +25,9 @@ public class McwBridgesSajevius
     public McwBridgesSajevius()
     {
     	LOGGER.info("Macaw's Bridges - Sajevius - LOADING ...");
-		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::ClientSetup);
+	FMLJavaModLoadingContext.get().getModEventBus().addListener(this::ClientSetup);
     	IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
     	MBSBlocksRegistry.BLOCK.register(bus);
-    	MBSBlocksRegistry.registryBetterLandStones();
     	MBSBlocksRegistry.ITEM.register(bus);
     	MinecraftForge.EVENT_BUS.register(SajeviusFixCompat.class);
     	LOGGER.info("Macaw's Bridges - Sajevius - FINISH REGISTRIES");
