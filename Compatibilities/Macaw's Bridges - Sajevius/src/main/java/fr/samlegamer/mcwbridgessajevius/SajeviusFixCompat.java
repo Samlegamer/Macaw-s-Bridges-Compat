@@ -44,7 +44,54 @@ public class SajeviusFixCompat
 		addMissingBlock(event, BETTERLANDS, "juniper_rope_bridge_stair", MBSBlocksRegistry.juniper_rope_bridge_stair.get());
 		addMissingBlock(event, BETTERLANDS, "juniper_rail_bridge", MBSBlocksRegistry.juniper_rail_bridge.get());
 
-		
+		addMissingBlock(event, BETTERLANDS, "black_terracotta_bricks_bridge", MBSBlocksRegistry.black_terracotta_bricks_bridge.get());
+		addMissingBlock(event, BETTERLANDS, "black_terracotta_bricks_bridge_pier", MBSBlocksRegistry.black_terracotta_bricks_bridge_pier.get());
+		addMissingBlock(event, BETTERLANDS, "black_terracotta_bricks_bridge_stair", MBSBlocksRegistry.black_terracotta_bricks_bridge_stair.get());
+		addMissingBlock(event, BETTERLANDS, "blue_terracotta_bricks_bridge", MBSBlocksRegistry.blue_terracotta_bricks_bridge.get());
+		addMissingBlock(event, BETTERLANDS, "blue_terracotta_bricks_bridge_pier", MBSBlocksRegistry.blue_terracotta_bricks_bridge_pier.get());
+		addMissingBlock(event, BETTERLANDS, "blue_terracotta_bricks_bridge_stair", MBSBlocksRegistry.blue_terracotta_bricks_bridge_stair.get());
+		addMissingBlock(event, BETTERLANDS, "brown_terracotta_bricks_bridge", MBSBlocksRegistry.brown_terracotta_bricks_bridge.get());
+		addMissingBlock(event, BETTERLANDS, "brown_terracotta_bricks_bridge_pier", MBSBlocksRegistry.brown_terracotta_bricks_bridge_pier.get());
+		addMissingBlock(event, BETTERLANDS, "brown_terracotta_bricks_bridge_stair", MBSBlocksRegistry.brown_terracotta_bricks_bridge_stair.get());
+		addMissingBlock(event, BETTERLANDS, "claystone_bricks_bridge", MBSBlocksRegistry.claystone_bricks_bridge.get());
+		addMissingBlock(event, BETTERLANDS, "claystone_bricks_bridge_pier", MBSBlocksRegistry.claystone_bricks_bridge_pier.get());
+		addMissingBlock(event, BETTERLANDS, "claystone_bricks_bridge_stair", MBSBlocksRegistry.claystone_bricks_bridge_stair.get());
+		addMissingBlock(event, BETTERLANDS, "cyan_terracotta_bricks_bridge", MBSBlocksRegistry.cyan_terracotta_bricks_bridge.get());
+		addMissingBlock(event, BETTERLANDS, "cyan_terracotta_bricks_bridge_pier", MBSBlocksRegistry.cyan_terracotta_bricks_bridge_pier.get());
+		addMissingBlock(event, BETTERLANDS, "cyan_terracotta_bricks_bridge_stair", MBSBlocksRegistry.cyan_terracotta_bricks_bridge_stair.get());
+		addMissingBlock(event, BETTERLANDS, "gray_terracotta_bricks_bridge", MBSBlocksRegistry.gray_terracotta_bricks_bridge.get());
+		addMissingBlock(event, BETTERLANDS, "gray_terracotta_bricks_bridge_pier", MBSBlocksRegistry.gray_terracotta_bricks_bridge_pier.get());
+		addMissingBlock(event, BETTERLANDS, "gray_terracotta_bricks_bridge_stair", MBSBlocksRegistry.gray_terracotta_bricks_bridge_stair.get());
+		addMissingBlock(event, BETTERLANDS, "green_terracotta_bricks_bridge", MBSBlocksRegistry.green_terracotta_bricks_bridge.get());
+		addMissingBlock(event, BETTERLANDS, "green_terracotta_bricks_bridge_pier", MBSBlocksRegistry.green_terracotta_bricks_bridge_pier.get());
+		addMissingBlock(event, BETTERLANDS, "green_terracotta_bricks_bridge_stair", MBSBlocksRegistry.green_terracotta_bricks_bridge_stair.get());
+		addMissingBlock(event, BETTERLANDS, "light_blue_terracotta_bricks_bridge", MBSBlocksRegistry.light_blue_terracotta_bricks_bridge.get());
+		addMissingBlock(event, BETTERLANDS, "light_blue_terracotta_bricks_bridge_pier", MBSBlocksRegistry.light_blue_terracotta_bricks_bridge_pier.get());
+		addMissingBlock(event, BETTERLANDS, "light_blue_terracotta_bricks_bridge_stair", MBSBlocksRegistry.light_blue_terracotta_bricks_bridge_stair.get());
+		addMissingBlock(event, BETTERLANDS, "light_gray_terracotta_bricks_bridge", MBSBlocksRegistry.light_gray_terracotta_bricks_bridge.get());
+		addMissingBlock(event, BETTERLANDS, "light_gray_terracotta_bricks_bridge_pier", MBSBlocksRegistry.light_gray_terracotta_bricks_bridge_pier.get());
+		addMissingBlock(event, BETTERLANDS, "light_gray_terracotta_bricks_bridge_stair", MBSBlocksRegistry.light_gray_terracotta_bricks_bridge_stair.get());
+		addMissingBlock(event, BETTERLANDS, "lime_terracotta_bricks_bridge", MBSBlocksRegistry.lime_terracotta_bricks_bridge.get());
+		addMissingBlock(event, BETTERLANDS, "lime_terracotta_bricks_bridge_pier", MBSBlocksRegistry.lime_terracotta_bricks_bridge_pier.get());
+		addMissingBlock(event, BETTERLANDS, "lime_terracotta_bricks_bridge_stair", MBSBlocksRegistry.lime_terracotta_bricks_bridge_stair.get());
+		addMissingBlock(event, BETTERLANDS, "magenta_terracotta_bricks_bridge", MBSBlocksRegistry.magenta_terracotta_bricks_bridge.get());
+		addMissingBlock(event, BETTERLANDS, "magenta_terracotta_bricks_bridge_pier", MBSBlocksRegistry.magenta_terracotta_bricks_bridge_pier.get());
+		addMissingBlock(event, BETTERLANDS, "magenta_terracotta_bricks_bridge_stair", MBSBlocksRegistry.magenta_terracotta_bricks_bridge_stair.get());
+		addMissingBlock(event, BETTERLANDS, "orange_terracotta_bricks_bridge", MBSBlocksRegistry.orange_terracotta_bricks_bridge.get());
+		addMissingBlock(event, BETTERLANDS, "orange_terracotta_bricks_bridge_pier", MBSBlocksRegistry.orange_terracotta_bricks_bridge_pier.get());
+		addMissingBlock(event, BETTERLANDS, "orange_terracotta_bricks_bridge_stair", MBSBlocksRegistry.orange_terracotta_bricks_bridge_stair.get());
+		addMissingBlock(event, BETTERLANDS, "red_terracotta_bricks_bridge", MBSBlocksRegistry.red_terracotta_bricks_bridge.get());
+		addMissingBlock(event, BETTERLANDS, "red_terracotta_bricks_bridge_pier", MBSBlocksRegistry.red_terracotta_bricks_bridge_pier.get());
+		addMissingBlock(event, BETTERLANDS, "red_terracotta_bricks_bridge_stair", MBSBlocksRegistry.red_terracotta_bricks_bridge_stair.get());
+		addMissingBlock(event, BETTERLANDS, "terracotta_bricks_bridge", MBSBlocksRegistry.terracotta_bricks_bridge.get());
+		addMissingBlock(event, BETTERLANDS, "terracotta_bricks_bridge_pier", MBSBlocksRegistry.terracotta_bricks_bridge_pier.get());
+		addMissingBlock(event, BETTERLANDS, "terracotta_bricks_bridge_stair", MBSBlocksRegistry.terracotta_bricks_bridge_stair.get());
+		addMissingBlock(event, BETTERLANDS, "white_terracotta_bricks_bridge", MBSBlocksRegistry.white_terracotta_bricks_bridge.get());
+		addMissingBlock(event, BETTERLANDS, "white_terracotta_bricks_bridge_pier", MBSBlocksRegistry.white_terracotta_bricks_bridge_pier.get());
+		addMissingBlock(event, BETTERLANDS, "white_terracotta_bricks_bridge_stair", MBSBlocksRegistry.white_terracotta_bricks_bridge_stair.get());
+		addMissingBlock(event, BETTERLANDS, "yellow_terracotta_bricks_bridge", MBSBlocksRegistry.yellow_terracotta_bricks_bridge.get());
+		addMissingBlock(event, BETTERLANDS, "yellow_terracotta_bricks_bridge_pier", MBSBlocksRegistry.yellow_terracotta_bricks_bridge_pier.get());
+		addMissingBlock(event, BETTERLANDS, "yellow_terracotta_bricks_bridge_stair", MBSBlocksRegistry.yellow_terracotta_bricks_bridge_stair.get());
 	}
 	
 	@SubscribeEvent
@@ -78,6 +125,54 @@ public class SajeviusFixCompat
 		addMissingItem(event, BETTERLANDS, "juniper_rope_bridge_stair", MBSBlocksRegistry.juniper_rope_bridge_stair.get().asItem());
 		addMissingItem(event, BETTERLANDS, "juniper_rail_bridge", MBSBlocksRegistry.juniper_rail_bridge.get().asItem());
 
+		addMissingItem(event, BETTERLANDS, "black_terracotta_bricks_bridge", MBSBlocksRegistry.black_terracotta_bricks_bridge.get().asItem());
+		addMissingItem(event, BETTERLANDS, "black_terracotta_bricks_bridge_pier", MBSBlocksRegistry.black_terracotta_bricks_bridge_pier.get().asItem());
+		addMissingItem(event, BETTERLANDS, "black_terracotta_bricks_bridge_stair", MBSBlocksRegistry.black_terracotta_bricks_bridge_stair.get().asItem());
+		addMissingItem(event, BETTERLANDS, "blue_terracotta_bricks_bridge", MBSBlocksRegistry.blue_terracotta_bricks_bridge.get().asItem());
+		addMissingItem(event, BETTERLANDS, "blue_terracotta_bricks_bridge_pier", MBSBlocksRegistry.blue_terracotta_bricks_bridge_pier.get().asItem());
+		addMissingItem(event, BETTERLANDS, "blue_terracotta_bricks_bridge_stair", MBSBlocksRegistry.blue_terracotta_bricks_bridge_stair.get().asItem());
+		addMissingItem(event, BETTERLANDS, "brown_terracotta_bricks_bridge", MBSBlocksRegistry.brown_terracotta_bricks_bridge.get().asItem());
+		addMissingItem(event, BETTERLANDS, "brown_terracotta_bricks_bridge_pier", MBSBlocksRegistry.brown_terracotta_bricks_bridge_pier.get().asItem());
+		addMissingItem(event, BETTERLANDS, "brown_terracotta_bricks_bridge_stair", MBSBlocksRegistry.brown_terracotta_bricks_bridge_stair.get().asItem());
+		addMissingItem(event, BETTERLANDS, "claystone_bricks_bridge", MBSBlocksRegistry.claystone_bricks_bridge.get().asItem());
+		addMissingItem(event, BETTERLANDS, "claystone_bricks_bridge_pier", MBSBlocksRegistry.claystone_bricks_bridge_pier.get().asItem());
+		addMissingItem(event, BETTERLANDS, "claystone_bricks_bridge_stair", MBSBlocksRegistry.claystone_bricks_bridge_stair.get().asItem());
+		addMissingItem(event, BETTERLANDS, "cyan_terracotta_bricks_bridge", MBSBlocksRegistry.cyan_terracotta_bricks_bridge.get().asItem());
+		addMissingItem(event, BETTERLANDS, "cyan_terracotta_bricks_bridge_pier", MBSBlocksRegistry.cyan_terracotta_bricks_bridge_pier.get().asItem());
+		addMissingItem(event, BETTERLANDS, "cyan_terracotta_bricks_bridge_stair", MBSBlocksRegistry.cyan_terracotta_bricks_bridge_stair.get().asItem());
+		addMissingItem(event, BETTERLANDS, "gray_terracotta_bricks_bridge", MBSBlocksRegistry.gray_terracotta_bricks_bridge.get().asItem());
+		addMissingItem(event, BETTERLANDS, "gray_terracotta_bricks_bridge_pier", MBSBlocksRegistry.gray_terracotta_bricks_bridge_pier.get().asItem());
+		addMissingItem(event, BETTERLANDS, "gray_terracotta_bricks_bridge_stair", MBSBlocksRegistry.gray_terracotta_bricks_bridge_stair.get().asItem());
+		addMissingItem(event, BETTERLANDS, "green_terracotta_bricks_bridge", MBSBlocksRegistry.green_terracotta_bricks_bridge.get().asItem());
+		addMissingItem(event, BETTERLANDS, "green_terracotta_bricks_bridge_pier", MBSBlocksRegistry.green_terracotta_bricks_bridge_pier.get().asItem());
+		addMissingItem(event, BETTERLANDS, "green_terracotta_bricks_bridge_stair", MBSBlocksRegistry.green_terracotta_bricks_bridge_stair.get().asItem());
+		addMissingItem(event, BETTERLANDS, "light_blue_terracotta_bricks_bridge", MBSBlocksRegistry.light_blue_terracotta_bricks_bridge.get().asItem());
+		addMissingItem(event, BETTERLANDS, "light_blue_terracotta_bricks_bridge_pier", MBSBlocksRegistry.light_blue_terracotta_bricks_bridge_pier.get().asItem());
+		addMissingItem(event, BETTERLANDS, "light_blue_terracotta_bricks_bridge_stair", MBSBlocksRegistry.light_blue_terracotta_bricks_bridge_stair.get().asItem());
+		addMissingItem(event, BETTERLANDS, "light_gray_terracotta_bricks_bridge", MBSBlocksRegistry.light_gray_terracotta_bricks_bridge.get().asItem());
+		addMissingItem(event, BETTERLANDS, "light_gray_terracotta_bricks_bridge_pier", MBSBlocksRegistry.light_gray_terracotta_bricks_bridge_pier.get().asItem());
+		addMissingItem(event, BETTERLANDS, "light_gray_terracotta_bricks_bridge_stair", MBSBlocksRegistry.light_gray_terracotta_bricks_bridge_stair.get().asItem());
+		addMissingItem(event, BETTERLANDS, "lime_terracotta_bricks_bridge", MBSBlocksRegistry.lime_terracotta_bricks_bridge.get().asItem());
+		addMissingItem(event, BETTERLANDS, "lime_terracotta_bricks_bridge_pier", MBSBlocksRegistry.lime_terracotta_bricks_bridge_pier.get().asItem());
+		addMissingItem(event, BETTERLANDS, "lime_terracotta_bricks_bridge_stair", MBSBlocksRegistry.lime_terracotta_bricks_bridge_stair.get().asItem());
+		addMissingItem(event, BETTERLANDS, "magenta_terracotta_bricks_bridge", MBSBlocksRegistry.magenta_terracotta_bricks_bridge.get().asItem());
+		addMissingItem(event, BETTERLANDS, "magenta_terracotta_bricks_bridge_pier", MBSBlocksRegistry.magenta_terracotta_bricks_bridge_pier.get().asItem());
+		addMissingItem(event, BETTERLANDS, "magenta_terracotta_bricks_bridge_stair", MBSBlocksRegistry.magenta_terracotta_bricks_bridge_stair.get().asItem());
+		addMissingItem(event, BETTERLANDS, "orange_terracotta_bricks_bridge", MBSBlocksRegistry.orange_terracotta_bricks_bridge.get().asItem());
+		addMissingItem(event, BETTERLANDS, "orange_terracotta_bricks_bridge_pier", MBSBlocksRegistry.orange_terracotta_bricks_bridge_pier.get().asItem());
+		addMissingItem(event, BETTERLANDS, "orange_terracotta_bricks_bridge_stair", MBSBlocksRegistry.orange_terracotta_bricks_bridge_stair.get().asItem());
+		addMissingItem(event, BETTERLANDS, "red_terracotta_bricks_bridge", MBSBlocksRegistry.red_terracotta_bricks_bridge.get().asItem());
+		addMissingItem(event, BETTERLANDS, "red_terracotta_bricks_bridge_pier", MBSBlocksRegistry.red_terracotta_bricks_bridge_pier.get().asItem());
+		addMissingItem(event, BETTERLANDS, "red_terracotta_bricks_bridge_stair", MBSBlocksRegistry.red_terracotta_bricks_bridge_stair.get().asItem());
+		addMissingItem(event, BETTERLANDS, "terracotta_bricks_bridge", MBSBlocksRegistry.terracotta_bricks_bridge.get().asItem());
+		addMissingItem(event, BETTERLANDS, "terracotta_bricks_bridge_pier", MBSBlocksRegistry.terracotta_bricks_bridge_pier.get().asItem());
+		addMissingItem(event, BETTERLANDS, "terracotta_bricks_bridge_stair", MBSBlocksRegistry.terracotta_bricks_bridge_stair.get().asItem());
+		addMissingItem(event, BETTERLANDS, "white_terracotta_bricks_bridge", MBSBlocksRegistry.white_terracotta_bricks_bridge.get().asItem());
+		addMissingItem(event, BETTERLANDS, "white_terracotta_bricks_bridge_pier", MBSBlocksRegistry.white_terracotta_bricks_bridge_pier.get().asItem());
+		addMissingItem(event, BETTERLANDS, "white_terracotta_bricks_bridge_stair", MBSBlocksRegistry.white_terracotta_bricks_bridge_stair.get().asItem());
+		addMissingItem(event, BETTERLANDS, "yellow_terracotta_bricks_bridge", MBSBlocksRegistry.yellow_terracotta_bricks_bridge.get().asItem());
+		addMissingItem(event, BETTERLANDS, "yellow_terracotta_bricks_bridge_pier", MBSBlocksRegistry.yellow_terracotta_bricks_bridge_pier.get().asItem());
+		addMissingItem(event, BETTERLANDS, "yellow_terracotta_bricks_bridge_stair", MBSBlocksRegistry.yellow_terracotta_bricks_bridge_stair.get().asItem());
 	}
 	
 	private static void addMissingBlock(RegistryEvent.MissingMappings<Block> event, String modid, String nameMissing, Block b)
