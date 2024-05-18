@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:blue_enchanted_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:blue_enchanted_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:blue_enchanted_bridge_pier",
+        "count": 3
+    }
+}

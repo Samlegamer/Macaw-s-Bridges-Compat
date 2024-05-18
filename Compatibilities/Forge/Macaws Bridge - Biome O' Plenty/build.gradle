@@ -11,7 +11,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.16.5-1.7'
+version = '1.16.5-1.8'
 group = 'fr.samlegamer.macawsbridgesbop'
 archivesBaseName = 'macawsbridgesbop'
 
@@ -87,8 +87,8 @@ repositories
 dependencies
 {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.34'
-	implementation fg.deobf("curse.maven:biomes-o-plenty-220318:3723128")
- 	implementation fg.deobf("curse.maven:macaws-bridges-351725:3683683")
+	implementation fg.deobf("curse.maven:biomes-o-plenty-220318:3913914")
+ 	implementation fg.deobf("curse.maven:macaws-bridges-351725:5240508")
 }
 
 jar {

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:soapstone_brick_wall"
+        },
+        
+        "W":
+        {
+            "item": "byg:soapstone_bricks"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:soapstone_bricks_bridge_pier",
+        "count": 3
+    }
+}

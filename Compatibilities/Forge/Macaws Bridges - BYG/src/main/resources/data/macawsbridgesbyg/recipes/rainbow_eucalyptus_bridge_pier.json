@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:rainbow_eucalyptus_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:rainbow_eucalyptus_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:rainbow_eucalyptus_bridge_pier",
+        "count": 3
+    }
+}

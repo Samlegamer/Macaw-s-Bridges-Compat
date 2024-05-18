@@ -41,5 +41,9 @@ public class McwBridgesAurora
 	 	RenderTypeLookup.setRenderLayer(MBABlocksRegistry.red_mushroom_log_bridge_stair.get(), RenderType.cutout());
 	 	RenderTypeLookup.setRenderLayer(MBABlocksRegistry.brown_mushroom_rail_bridge.get(), RenderType.cutout());
 	 	RenderTypeLookup.setRenderLayer(MBABlocksRegistry.red_mushroom_rail_bridge.get(), RenderType.cutout());
+	 	RenderTypeLookup.setRenderLayer(MBABlocksRegistry.cypress_rope_bridge_stair.get(), RenderType.cutout());
+	 	RenderTypeLookup.setRenderLayer(MBABlocksRegistry.brown_mushroom_rope_bridge_stair.get(), RenderType.cutout());
+	 	RenderTypeLookup.setRenderLayer(MBABlocksRegistry.red_mushroom_rope_bridge_stair.get(), RenderType.cutout());
+
 	}
 }
