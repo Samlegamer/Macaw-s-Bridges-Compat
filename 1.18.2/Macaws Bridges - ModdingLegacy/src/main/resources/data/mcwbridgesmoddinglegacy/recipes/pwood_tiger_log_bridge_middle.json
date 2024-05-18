@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "premium_wood:tiger_fence"
+        },
+        
+        "W":
+        {
+            "item": "premium_wood:tiger_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesmoddinglegacy:pwood_tiger_log_bridge_middle",
+        "count": 4
+    }
+}

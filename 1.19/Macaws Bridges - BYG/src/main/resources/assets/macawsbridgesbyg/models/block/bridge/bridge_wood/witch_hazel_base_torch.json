@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/bridge/bridge_wood/parent/base_torch",
+	"textures": {
+		"1": "byg:block/witch_hazel/log",
+		"4": "mcwbridges:block/torch",
+		"2": "byg:block/witch_hazel/planks",
+		"particle": "byg:block/witch_hazel/planks"
+	}
+}

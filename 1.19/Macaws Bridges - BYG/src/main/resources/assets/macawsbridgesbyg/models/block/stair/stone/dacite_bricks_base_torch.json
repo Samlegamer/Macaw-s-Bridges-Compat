@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/stair/stone/parent/base_torch",
+	"textures": {
+		"1": "byg:block/dacite",
+		"2": "byg:block/dacite_bricks",
+		"4": "mcwbridges:block/torch",
+		"particle": "byg:block/dacite_bricks"
+	}
+}

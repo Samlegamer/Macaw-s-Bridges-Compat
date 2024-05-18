@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/bridge/bridge_stone/parent/inventory",
+"textures":{"2": "byg:block/soapstone_bricks",
+"particle": "byg:block/soapstone",
+"2_2": "byg:block/soapstone"}}

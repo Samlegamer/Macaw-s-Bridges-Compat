@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/stair/stone/parent/left_torch",
+	"textures": {
+		"1": "byg:block/travertine",
+		"2": "byg:block/polished_travertine",
+		"4": "mcwbridges:block/torch",
+		"particle": "byg:block/polished_travertine"
+	}
+}

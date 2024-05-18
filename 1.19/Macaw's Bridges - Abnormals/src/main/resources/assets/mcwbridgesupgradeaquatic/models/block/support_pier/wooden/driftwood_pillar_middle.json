@@ -1,0 +1,5 @@
+{"parent": "mcwbridges:block/support_pier/wooden/parent/pillar_middle",
+"textures":{"0": "mcwbridgesupgradeaquatic/driftwood_log",
+"1": "mcwbridgesupgradeaquatic/driftwood_log_top",
+"2": "mcwbridgesupgradeaquatic/driftwood_planks",
+"particle": "mcwbridgesupgradeaquatic/driftwood_log"}}

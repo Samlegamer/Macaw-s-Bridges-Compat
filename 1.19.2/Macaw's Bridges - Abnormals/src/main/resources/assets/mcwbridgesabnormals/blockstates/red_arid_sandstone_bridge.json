@@ -1,0 +1,24 @@
+{
+    "variants": {                     
+		"connection=base":  { "model": "mcwbridgesabnormals:block/bridge/bridge_stone/red_arid_sandstone_base","uvlock": true},
+		"connection=base_toggled":  { "model": "mcwbridgesabnormals:block/bridge/bridge_stone/red_arid_sandstone_base","uvlock": true},
+		
+        "connection=middle_ns":  { "model": "mcwbridgesabnormals:block/bridge/bridge_stone/red_arid_sandstone_middle", "y": 90,"uvlock": true},
+		"connection=middle_ew":  { "model": "mcwbridgesabnormals:block/bridge/bridge_stone/red_arid_sandstone_middle","uvlock": true},
+
+		"connection=corner_nw":  { "model": "mcwbridgesabnormals:block/bridge/bridge_stone/red_arid_sandstone_corner", "y": 180,"uvlock": true},
+		"connection=corner_ne":  { "model": "mcwbridgesabnormals:block/bridge/bridge_stone/red_arid_sandstone_corner", "y": 270,"uvlock": true},
+		"connection=corner_se":  { "model": "mcwbridgesabnormals:block/bridge/bridge_stone/red_arid_sandstone_corner","uvlock": true},
+		"connection=corner_sw":  { "model": "mcwbridgesabnormals:block/bridge/bridge_stone/red_arid_sandstone_corner", "y": 90,"uvlock": true},	
+		
+		"connection=side_s":  { "model": "mcwbridgesabnormals:block/bridge/bridge_stone/red_arid_sandstone_side","uvlock": true},
+		"connection=side_n":  { "model": "mcwbridgesabnormals:block/bridge/bridge_stone/red_arid_sandstone_side", "y": 180,"uvlock": true},
+		"connection=side_w":  { "model": "mcwbridgesabnormals:block/bridge/bridge_stone/red_arid_sandstone_side", "y": 90,"uvlock": true},
+		"connection=side_e":  { "model": "mcwbridgesabnormals:block/bridge/bridge_stone/red_arid_sandstone_side", "y": 270,"uvlock": true},
+		
+		"connection=end_s_toggled":  { "model": "mcwbridgesabnormals:block/bridge/bridge_stone/red_arid_sandstone_side", "y": 0,"uvlock": true},
+		"connection=end_n_toggled":  { "model": "mcwbridgesabnormals:block/bridge/bridge_stone/red_arid_sandstone_side", "y": 180,"uvlock": true},
+		"connection=end_w_toggled":  { "model": "mcwbridgesabnormals:block/bridge/bridge_stone/red_arid_sandstone_side", "y": 90,"uvlock": true},
+		"connection=end_e_toggled":  { "model": "mcwbridgesabnormals:block/bridge/bridge_stone/red_arid_sandstone_side", "y": 270,"uvlock": true}
+    }
+}

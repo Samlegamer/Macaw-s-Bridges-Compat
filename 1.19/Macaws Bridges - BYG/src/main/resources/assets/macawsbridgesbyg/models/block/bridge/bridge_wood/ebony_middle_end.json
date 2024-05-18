@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/bridge/bridge_wood/parent/middle_end",
+	"textures": {
+		"5": "byg:block/ebony/planks",
+		"0": "byg:block/ebony/log",
+		"1": "byg:block/ebony/planks",
+		"particle": "byg:block/ebony/log"
+	}
+}

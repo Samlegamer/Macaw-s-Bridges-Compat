@@ -1,0 +1,8 @@
+{
+	"parent": "mcwbridges:block/stair/rope/parent/base_torch",
+	"textures": {
+		"2": "byg:block/jacaranda/planks",
+		"3": "mcwbridges:block/torch",
+	    "particle": "byg:block/jacaranda/planks"
+	}
+}

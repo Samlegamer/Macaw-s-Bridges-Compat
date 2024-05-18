@@ -1,0 +1,6 @@
+{"parent": "mcwbridges:block/stair/rope/parent/right",
+"textures": {"0": "mcwbridges:block/lead_knot_vert",
+"2": "environmental:block/wisteria_planks",
+"3": "mcwbridges:block/lead_knot",
+"4": "environmental:block/wisteria_log",
+"particle": "environmental:block/wisteria_log"}}

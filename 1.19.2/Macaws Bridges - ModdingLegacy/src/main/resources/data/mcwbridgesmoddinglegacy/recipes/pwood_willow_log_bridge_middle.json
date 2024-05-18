@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "premium_wood:willow_fence"
+        },
+        
+        "W":
+        {
+            "item": "premium_wood:willow_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesmoddinglegacy:pwood_willow_log_bridge_middle",
+        "count": 4
+    }
+}

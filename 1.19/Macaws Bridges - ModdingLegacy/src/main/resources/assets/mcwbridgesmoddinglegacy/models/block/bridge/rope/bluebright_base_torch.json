@@ -1,0 +1,4 @@
+{"parent":"mcwbridges:block/bridge/rope/parent/base_torch",
+"textures":{"1": "minecraft:block/torch",
+"3": "blue_skies:block/wood/bluebright_log_side",
+"particle": "blue_skies:block/wood/bluebright_planks"}}

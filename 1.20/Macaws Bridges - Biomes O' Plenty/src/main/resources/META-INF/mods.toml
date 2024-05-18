@@ -1,0 +1,46 @@
+modLoader="javafml" #mandatory
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+issueTrackerURL="https://github.com/Samlegamer/Macaw-s-Bridges-Compat/issues"
+[[mods]] #mandatory
+modId="macawsbridgesbop"
+version="1.20-1.2"
+displayName="Macaw's Bridges - BOP"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/macaws-bridges-biome-o-plenty"
+logoFile="img.png"
+credits="sketch_macaw"
+authors="Samlegamer"
+
+description='''Compatibility between Macaw's Bridges and Biome O' Plenty for Minecraft 1.20 !'''
+
+[[dependencies.macawsbridgesbop]]
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="${forge_version_range}" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.macawsbridgesbop]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.macawsbridgesbop]]
+    modId = "mcwbridges"
+    mandatory = false
+    ordering = "AFTER"
+    versionRange = "NONE"
+
+[[dependencies.macawsbridgesbop]]
+    modId = "biomesoplenty"
+    mandatory = false
+    ordering = "AFTER"
+    versionRange = "NONE"
+
+[[dependencies.macawsbridgesbop]]
+    modId = "terrablender"
+    mandatory = false
+    ordering = "AFTER"
+    versionRange = "NONE"

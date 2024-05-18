@@ -1,0 +1,10 @@
+{
+	"parent": "mcwbridges:block/bridge/bridge_stone/parent/middle_end_torch",
+	"textures": {
+		"5": "byg:block/scoria_stone",
+		"4": "mcwbridges:block/torch",
+		"1": "byg:block/scoria_stone",
+		"2": "byg:block/scoria_stone_bricks",
+		"particle": "byg:block/scoria_stone_bricks"
+	}
+}

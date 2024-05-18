@@ -1,0 +1,5 @@
+{"parent":"mcwbridges:block/bridge/rail/parent/side_left",
+"textures":{"0":"byg:block/redwood/log",
+"2":"byg:block/redwood/planks",
+"3":"byg:block/redwood/log_top",
+"particle":"byg:block/redwood/planks"}}

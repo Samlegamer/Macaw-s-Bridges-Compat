@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "blue_skies:crystallized_wall"
+        },
+        
+        "W":
+        {
+            "item": "blue_skies:crystallized_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesmoddinglegacy:bsky_crystallized_rail_bridge",
+        "count": 4
+    }
+}

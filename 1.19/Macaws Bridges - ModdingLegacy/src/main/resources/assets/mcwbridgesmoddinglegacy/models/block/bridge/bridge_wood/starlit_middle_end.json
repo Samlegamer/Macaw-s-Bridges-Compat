@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/bridge/bridge_wood/parent/middle_end",
+"textures":{"0": "blue_skies:block/wood/starlit_log_side",
+"1": "blue_skies:block/wood/starlit_planks",
+"particle": "blue_skies:block/wood/starlit_log_side"}}

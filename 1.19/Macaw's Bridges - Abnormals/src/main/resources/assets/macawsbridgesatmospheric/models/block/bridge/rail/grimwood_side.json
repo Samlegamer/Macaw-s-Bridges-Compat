@@ -1,0 +1,5 @@
+{"parent": "mcwbridges:block/bridge/rail/parent/side",
+"textures":{"0": "atmospheric:block/grimwood_log",
+"2": "atmospheric:block/grimwood_planks",
+"3": "atmospheric:block/grimwood_log_top",
+"particle": "atmospheric:block/grimwood_planks"}}

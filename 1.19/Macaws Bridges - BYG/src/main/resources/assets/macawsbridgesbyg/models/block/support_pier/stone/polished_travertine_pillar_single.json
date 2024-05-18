@@ -1,0 +1,7 @@
+{
+	"parent": "mcwbridges:block/support_pier/stone/parent/pillar_single",
+	"textures": {
+		"0": "byg:block/polished_travertine",
+		"particle": "byg:block/polished_travertine"
+	}
+}

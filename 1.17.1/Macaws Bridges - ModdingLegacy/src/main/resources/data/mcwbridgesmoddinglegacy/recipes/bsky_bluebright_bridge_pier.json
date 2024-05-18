@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "blue_skies:bluebright_fence"
+        },
+        
+        "W":
+        {
+            "item": "blue_skies:bluebright_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesmoddinglegacy:bsky_bluebright_bridge_pier",
+        "count": 3
+    }
+}

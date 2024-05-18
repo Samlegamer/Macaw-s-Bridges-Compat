@@ -1,0 +1,5 @@
+{"parent":"mcwbridges:block/bridge/rail/parent/side_left",
+"textures":{"0":"byg:block/green_enchanted/log",
+"2":"byg:block/green_enchanted/planks",
+"3":"byg:block/green_enchanted/log_top",
+"particle":"byg:block/green_enchanted/planks"}}

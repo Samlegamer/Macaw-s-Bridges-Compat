@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomesoplenty:jacaranda_fence"
+        },
+        
+        "W":
+        {
+            "item": "biomesoplenty:jacaranda_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbop:jacaranda_bridge_pier",
+        "count": 3
+    }
+}

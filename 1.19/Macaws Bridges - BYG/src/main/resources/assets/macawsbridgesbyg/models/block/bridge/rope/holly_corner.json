@@ -1,0 +1,5 @@
+{"parent":"mcwbridges:block/bridge/rope/parent/corner",
+"textures":{"0": "mcwbridges:block/lead_knot_vert",
+"4": "byg:block/holly/log",
+"particle": "byg:block/holly/log",
+"1_4": "mcwbridges:block/lead_knot"}}

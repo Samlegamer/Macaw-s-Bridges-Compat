@@ -1,0 +1,5 @@
+{"parent": "mcwbridges:block/bridge/rope/parent/side_right",
+"textures":{"0": "mcwbridges:block/lead_knot_vert",
+"3": "mcwbridges:block/lead_knot",
+"4": "atmospheric:block/rosewood_log",
+"particle": "atmospheric:block/rosewood_log"}}

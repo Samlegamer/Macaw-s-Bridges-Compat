@@ -1,0 +1,5 @@
+{"parent":"mcwbridges:block/bridge/rail/parent/side_left",
+"textures":{"0":"byg:block/zelkova/log",
+"2":"byg:block/zelkova/planks",
+"3":"byg:block/zelkova/log_top",
+"particle":"byg:block/zelkova/planks"}}

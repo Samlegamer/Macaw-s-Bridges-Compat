@@ -1,0 +1,3 @@
+{"parent": "mcwbridges:block/bridge/bridge_wood/parent/side",
+"textures": {"0": "upgrade_aquatic:block/driftwood_log",
+"particle": "upgrade_aquatic:block/driftwood_log"}}

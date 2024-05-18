@@ -1,0 +1,5 @@
+{"parent": "mcwbridges:block/support_pier/wooden/parent/pillar_middle",
+"textures":{"0": "environmental:block/willow_log",
+"1": "environmental:block/willow_log_top",
+"2": "environmental:block/willow_planks",
+"particle": "environmental:block/willow_log"}}

@@ -1,0 +1,11 @@
+{
+	"parent": "mcwbridges:block/stair/rope/parent/double_torch",
+	"textures": {
+		"0": "mcwbridges:block/lead_knot_vert",
+		"2": "byg:block/ebony/planks",
+		"3": "mcwbridges:block/lead_knot",
+		"4": "byg:block/ebony/log",
+		"6": "mcwbridges:block/torch",
+		"particle": "byg:block/ebony/log"
+	}
+}

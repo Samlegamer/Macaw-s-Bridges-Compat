@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/support_pier/wooden/parent/pillar_corner",
+	"textures": {
+		"0": "byg:block/zelkova/log",
+		"1": "byg:block/zelkova/stripped_log",
+		"2": "byg:block/zelkova/planks",
+		"particle": "byg:block/zelkova/log"
+	}
+}

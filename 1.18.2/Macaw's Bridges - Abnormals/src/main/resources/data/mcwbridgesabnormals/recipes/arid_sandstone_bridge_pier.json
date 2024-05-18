@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "atmospheric:arid_sandstone_wall"
+        },
+        
+        "W":
+        {
+            "item": "atmospheric:arid_sandstone"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesabnormals:arid_sandstone_bridge_pier",
+        "count": 3
+    },
+    "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "atmospheric"
+    }
+  ]
+}

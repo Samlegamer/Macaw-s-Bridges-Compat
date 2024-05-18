@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "  F",
+    " FF",
+	"FFF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "macawsbridgesbyg:rope_witch_hazel_bridge"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:witch_hazel_rope_bridge_stair",
+        "count": 6
+    }
+}

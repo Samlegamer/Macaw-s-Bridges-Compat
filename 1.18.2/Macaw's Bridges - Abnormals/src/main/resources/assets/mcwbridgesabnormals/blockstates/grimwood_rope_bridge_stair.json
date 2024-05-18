@@ -1,0 +1,24 @@
+{
+    "variants": {                                                                        
+        "facing=north,connection=base":  { "model": "mcwbridgesabnormals:block/stair/rope/grimwood_double", "y": 270},
+		"facing=north,connection=right":  { "model": "mcwbridgesabnormals:block/stair/rope/grimwood_right", "y": 270},
+		"facing=north,connection=left":  { "model": "mcwbridgesabnormals:block/stair/rope/grimwood_left", "y": 270},
+		"facing=north,connection=double":  { "model": "mcwbridgesabnormals:block/stair/rope/grimwood_base", "y": 270},
+
+        "facing=west,connection=base":  { "model": "mcwbridgesabnormals:block/stair/rope/grimwood_double", "y": 180},
+		"facing=west,connection=right":  { "model": "mcwbridgesabnormals:block/stair/rope/grimwood_right", "y": 180},
+		"facing=west,connection=left":  { "model": "mcwbridgesabnormals:block/stair/rope/grimwood_left", "y": 180},
+		"facing=west,connection=double":  { "model": "mcwbridgesabnormals:block/stair/rope/grimwood_base", "y": 180},
+
+        "facing=south,connection=base":  { "model": "mcwbridgesabnormals:block/stair/rope/grimwood_double", "y": 90},
+		"facing=south,connection=right":  { "model": "mcwbridgesabnormals:block/stair/rope/grimwood_right", "y": 90},
+		"facing=south,connection=left":  { "model": "mcwbridgesabnormals:block/stair/rope/grimwood_left", "y": 90},
+		"facing=south,connection=double":  { "model": "mcwbridgesabnormals:block/stair/rope/grimwood_base", "y": 90},
+
+        "facing=east,connection=base":  { "model": "mcwbridgesabnormals:block/stair/rope/grimwood_double"},
+		"facing=east,connection=right":  { "model": "mcwbridgesabnormals:block/stair/rope/grimwood_right"},
+		"facing=east,connection=left":  { "model": "mcwbridgesabnormals:block/stair/rope/grimwood_left"},	
+		"facing=east,connection=double":  { "model": "mcwbridgesabnormals:block/stair/rope/grimwood_base"}
+
+    }
+}

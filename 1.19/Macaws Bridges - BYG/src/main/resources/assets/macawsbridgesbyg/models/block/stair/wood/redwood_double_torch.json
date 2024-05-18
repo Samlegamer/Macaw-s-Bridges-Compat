@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/stair/wood/parent/double_torch",
+	"textures": {
+		"2": "byg:block/redwood/planks",
+		"particle": "byg:block/redwood/log",
+		"4": "mcwbridges:block/torch",
+		"1_1": "byg:block/redwood/log"
+	}
+}

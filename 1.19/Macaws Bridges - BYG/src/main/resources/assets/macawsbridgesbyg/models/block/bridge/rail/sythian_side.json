@@ -1,0 +1,5 @@
+{"parent": "mcwbridges:block/bridge/rail/parent/side",
+"textures":{"0": "byg:block/sythian/log",
+"2": "byg:block/sythian/planks",
+"3": "byg:block/sythian/log_top",
+"particle": "byg:block/sythian/planks"}}

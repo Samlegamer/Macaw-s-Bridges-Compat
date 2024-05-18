@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:red_rock_brick_wall"
+        },
+        
+        "W":
+        {
+            "item": "byg:red_rock_bricks"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:red_rock_bricks_bridge_pier",
+        "count": 3
+    }
+}

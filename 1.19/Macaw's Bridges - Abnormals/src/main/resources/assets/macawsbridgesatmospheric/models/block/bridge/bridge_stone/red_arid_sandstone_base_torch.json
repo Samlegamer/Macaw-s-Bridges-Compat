@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/bridge/bridge_stone/parent/base_torch",
+"textures":{"1": "atmospheric:block/red_arid_sandstone",
+"3": "minecraft:block/torch",
+"particle": "atmospheric:block/red_arid_sandstone"}}

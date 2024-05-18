@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/support_pier/wooden/parent/pillar_corner",
+	"textures": {
+		"0": "byg:block/bulbis/log",
+		"1": "byg:block/bulbis/stripped_log",
+		"2": "byg:block/bulbis/planks",
+		"particle": "byg:block/bulbis/log"
+	}
+}

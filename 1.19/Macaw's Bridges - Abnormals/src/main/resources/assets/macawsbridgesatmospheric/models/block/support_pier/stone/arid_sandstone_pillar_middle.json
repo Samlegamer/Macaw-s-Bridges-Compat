@@ -1,0 +1,3 @@
+{"parent": "mcwbridges:block/support_pier/stone/parent/pillar_middle",
+"textures":{"0": "atmospheric:block/arid_sandstone",
+"particle": "atmospheric:block/arid_sandstone"}}

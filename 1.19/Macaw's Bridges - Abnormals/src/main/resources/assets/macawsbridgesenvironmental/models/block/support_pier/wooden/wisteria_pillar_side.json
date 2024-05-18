@@ -1,0 +1,5 @@
+{"parent": "mcwbridges:block/support_pier/wooden/parent/pillar_side",
+"textures":{"0": "environmental:block/wisteria_log",
+"1": "environmental:block/wisteria_log_top",
+"2": "environmental:block/wisteria_planks",
+"particle": "environmental:block/wisteria_log"}}

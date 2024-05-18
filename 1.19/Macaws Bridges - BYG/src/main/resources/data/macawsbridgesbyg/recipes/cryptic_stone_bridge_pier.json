@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:cryptic_stone_wall"
+        },
+        
+        "W":
+        {
+            "item": "byg:cryptic_stone"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:cryptic_stone_bridge_pier",
+        "count": 3
+    }
+}
