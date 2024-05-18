@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "blue_skies:lunar_fence"
+        },
+        
+        "W":
+        {
+            "item": "blue_skies:lunar_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesmoddinglegacy:bsky_lunar_bridge_pier",
+        "count": 3
+    }
+}

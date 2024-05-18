@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/bridge/bridge_wood/parent/middle_end",
+	"textures": {
+		"5": "byg:block/cika/planks",
+		"0": "byg:block/cika/log",
+		"1": "byg:block/cika/planks",
+		"particle": "byg:block/cika/log"
+	}
+}

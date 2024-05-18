@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/support_pier/wooden/parent/pillar_side",
+	"textures": {
+		"0": "byg:block/witch_hazel/log",
+		"1": "byg:block/witch_hazel/stripped_log",
+		"2": "byg:block/witch_hazel/planks",
+		"particle": "byg:block/witch_hazel/log"
+	}
+}

@@ -1,0 +1,5 @@
+{"parent":"mcwbridges:block/bridge/rail/parent/corner",
+"textures":{"0": "byg:block/bulbis/log",
+"2": "byg:block/bulbis/planks",
+"3": "byg:block/bulbis/log_top",
+"particle": "byg:block/bulbis/planks"}}

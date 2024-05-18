@@ -1,0 +1,5 @@
+{"parent": "mcwbridges:block/bridge/rope/parent/middle_end",
+"textures":{"0": "mcwbridges:block/lead_knot_vert",
+"3": "mcwbridges:block/lead_knot",
+"4": "premium_wood:block/willow/willow_log",
+"particle": "premium_wood:block/willow/willow_log"}}

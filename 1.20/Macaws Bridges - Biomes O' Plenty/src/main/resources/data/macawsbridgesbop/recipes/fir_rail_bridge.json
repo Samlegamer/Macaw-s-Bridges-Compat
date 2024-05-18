@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomesoplenty:fir_fence"
+        },
+        
+        "W":
+        {
+            "item": "biomesoplenty:fir_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbop:fir_rail_bridge",
+        "count": 4
+    }
+}

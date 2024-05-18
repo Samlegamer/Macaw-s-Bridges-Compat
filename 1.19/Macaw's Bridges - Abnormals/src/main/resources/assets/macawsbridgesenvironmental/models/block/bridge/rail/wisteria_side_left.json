@@ -1,0 +1,5 @@
+{"parent":"mcwbridges:block/bridge/rail/parent/side_left",
+"textures":{"0":"environmental:block/wisteria_log",
+"2":"environmental:block/wisteria_planks",
+"3":"environmental:block/wisteria_log_top",
+"particle":"environmental:block/wisteria_planks"}}

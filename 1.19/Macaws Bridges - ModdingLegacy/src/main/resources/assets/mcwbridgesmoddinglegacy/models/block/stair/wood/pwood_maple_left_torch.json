@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/stair/wood/parent/left_torch",
+	"textures": {
+		"2": "premium_wood:block/maple/maple_planks",
+		"particle": "premium_wood:block/maple/maple_log",
+		"4": "mcwbridges:block/torch",
+		"1_1": "premium_wood:block/maple/maple_log"
+	}
+}

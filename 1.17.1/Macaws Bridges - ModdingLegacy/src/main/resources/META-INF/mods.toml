@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Samlegamer/Macaw-s-Bridges-Compat/issues"
+
+[[mods]]
+modId="mcwbridgesmoddinglegacy"
+version="1.17.1-1.2"
+displayName="Macaw's Bridges - Modding Legacy"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/macaws-bridges-modding-legacy"
+logoFile="logo.png"
+credits=""
+authors="Samlegamer"
+description='''
+Support :
+- Blue Skies
+- Premium Wood
+'''
+
+[[dependencies.mcwbridgesmoddinglegacy]]
+    modId="forge"
+    mandatory=true
+    versionRange="[37,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.mcwbridgesmoddinglegacy]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,1.18)"
+    ordering="NONE"
+    side="BOTH"
+

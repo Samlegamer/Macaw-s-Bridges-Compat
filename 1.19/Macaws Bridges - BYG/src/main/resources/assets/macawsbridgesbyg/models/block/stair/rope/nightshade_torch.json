@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/stair/rope/parent/torch",
+"textures":{"4": "byg:block/nightshade/log",
+"1_3": "minecraft:block/torch",
+"particle": "byg:block/nightshade/log"}}

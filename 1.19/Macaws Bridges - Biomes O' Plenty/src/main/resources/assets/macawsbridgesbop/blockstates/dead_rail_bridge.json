@@ -1,0 +1,13 @@
+{
+    "variants": {                                                                        
+        "facing=north,powered=false":  { "model": "macawsbridgesbop:block/bridge/rail/dead", "y": 90},
+		"facing=east,powered=false":  { "model": "macawsbridgesbop:block/bridge/rail/dead"},
+		"facing=south,powered=false":  { "model": "macawsbridgesbop:block/bridge/rail/dead", "y": 90},
+		"facing=west,powered=false":  { "model": "macawsbridgesbop:block/bridge/rail/dead"},
+
+		"facing=north,powered=true":  { "model": "macawsbridgesbop:block/bridge/rail/dead_powered", "y": 90},
+		"facing=east,powered=true":  { "model": "macawsbridgesbop:block/bridge/rail/dead_powered"},
+		"facing=south,powered=true":  { "model": "macawsbridgesbop:block/bridge/rail/dead_powered", "y": 90},
+		"facing=west,powered=true":  { "model": "macawsbridgesbop:block/bridge/rail/dead_powered"}			
+    }
+}

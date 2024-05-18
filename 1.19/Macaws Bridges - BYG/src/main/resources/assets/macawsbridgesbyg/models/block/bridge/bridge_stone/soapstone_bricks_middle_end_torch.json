@@ -1,0 +1,10 @@
+{
+	"parent": "mcwbridges:block/bridge/bridge_stone/parent/middle_end_torch",
+	"textures": {
+		"5": "byg:block/soapstone",
+		"4": "mcwbridges:block/torch",
+		"1": "byg:block/soapstone",
+		"2": "byg:block/soapstone_bricks",
+		"particle": "byg:block/soapstone_bricks"
+	}
+}

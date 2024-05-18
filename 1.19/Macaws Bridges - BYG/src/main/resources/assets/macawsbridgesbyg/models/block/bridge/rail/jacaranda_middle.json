@@ -1,0 +1,5 @@
+{"parent":"mcwbridges:block/bridge/rail/parent/middle",
+"textures":{"0": "byg:block/jacaranda/log",
+"2": "byg:block/jacaranda/planks",
+"3": "byg:block/jacaranda/log_top",
+"particle": "byg:block/jacaranda/planks"}}

@@ -1,0 +1,4 @@
+{"parent":"mcwbridges:block/bridge/rope/parent/base_torch",
+"textures":{"1": "minecraft:block/torch",
+"3": "endergetic:block/poise_stem",
+"particle": "endergetic:block/poise_planks"}}

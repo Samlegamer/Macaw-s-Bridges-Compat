@@ -1,0 +1,5 @@
+{"parent":"mcwbridges:block/bridge/rail/parent/corner",
+"textures":{"0": "environmental:block/cherry_log",
+"2": "environmental:block/cherry_planks",
+"3": "environmental:block/cherry_log_top",
+"particle": "environmental:block/cherry_planks"}}

@@ -1,0 +1,7 @@
+{
+	"parent": "mcwbridges:block/support_pier/stone/parent/pillar_side",
+	"textures": {
+		"0": "byg:block/cryptic_stone",
+		"particle": "byg:block/cryptic_stone"
+	}
+}

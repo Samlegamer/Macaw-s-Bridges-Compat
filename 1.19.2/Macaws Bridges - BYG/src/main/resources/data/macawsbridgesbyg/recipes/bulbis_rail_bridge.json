@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:bulbis_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:bulbis_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:bulbis_rail_bridge",
+        "count": 4
+    }
+}

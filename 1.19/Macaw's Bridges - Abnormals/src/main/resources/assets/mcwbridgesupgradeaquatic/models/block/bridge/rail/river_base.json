@@ -1,0 +1,3 @@
+{"parent": "mcwbridges:block/bridge/rail/parent/base",
+"textures":{"2": "mcwbridgesupgradeaquatic/river_planks",
+"particle": "mcwbridgesupgradeaquatic/river_planks"}}

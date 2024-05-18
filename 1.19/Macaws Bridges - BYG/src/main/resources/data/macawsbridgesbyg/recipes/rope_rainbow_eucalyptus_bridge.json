@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "minecraft:string"
+        },
+        
+        "W":
+        {
+            "item": "byg:rainbow_eucalyptus_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:rope_rainbow_eucalyptus_bridge",
+        "count": 4
+    }
+}

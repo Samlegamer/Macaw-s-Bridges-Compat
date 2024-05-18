@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "environmental:willow_fence"
+        },
+        
+        "W":
+        {
+            "item": "environmental:willow_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesabnormals:willow_bridge_pier",
+        "count": 3
+    },
+    "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "environmental"
+    }
+  ]
+}

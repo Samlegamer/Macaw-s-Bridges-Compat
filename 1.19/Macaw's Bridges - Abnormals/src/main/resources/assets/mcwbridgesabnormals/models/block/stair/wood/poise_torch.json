@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/stair/wood/parent/torch",
+"textures":{"3": "minecraft:block/torch",
+"particle": "endergetic:block/poise_stem",
+"1_1": "endergetic:block/poise_stem"}}

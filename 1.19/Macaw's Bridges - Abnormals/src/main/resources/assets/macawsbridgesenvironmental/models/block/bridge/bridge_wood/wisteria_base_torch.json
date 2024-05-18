@@ -1,0 +1,3 @@
+{"parent": "mcwbridges:block/bridge/bridge_wood/parent/base_torch",
+"textures": {"1": "environmental:block/wisteria_log",
+"3": "minecraft:block/torch","particle": "environmental:block/wisteria_planks"}}

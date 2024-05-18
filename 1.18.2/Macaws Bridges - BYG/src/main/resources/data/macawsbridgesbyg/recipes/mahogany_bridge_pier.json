@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:mahogany_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:mahogany_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:mahogany_bridge_pier",
+        "count": 3
+    }
+}

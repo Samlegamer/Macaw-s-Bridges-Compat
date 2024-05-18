@@ -1,0 +1,3 @@
+{"parent":"mcwbridges:block/bridge/rail/parent/core",
+"textures":{"2": "blue_skies:block/wood/lunar_planks",
+"particle": "blue_skies:block/wood/lunar_planks"}}

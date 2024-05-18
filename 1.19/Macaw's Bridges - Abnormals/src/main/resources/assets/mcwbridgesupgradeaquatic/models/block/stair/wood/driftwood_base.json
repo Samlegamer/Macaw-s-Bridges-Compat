@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/stair/wood/parent/base",
+"textures":{"2": "mcwbridgesupgradeaquatic/driftwood_planks",
+"particle": "mcwbridgesupgradeaquatic/driftwood_log",
+"1_1": "mcwbridgesupgradeaquatic/driftwood_log"}}

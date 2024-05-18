@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:imparius_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:imparius_stem"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:imparius_bridge_pier",
+        "count": 3
+    }
+}

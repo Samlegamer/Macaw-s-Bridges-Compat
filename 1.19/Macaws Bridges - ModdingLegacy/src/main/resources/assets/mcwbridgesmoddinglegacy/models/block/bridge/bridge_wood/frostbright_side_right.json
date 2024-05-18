@@ -1,0 +1,3 @@
+{"parent": "mcwbridges:block/bridge/bridge_wood/parent/side_right",
+"textures":{"0": "blue_skies:block/wood/frostbright_log_side",
+"particle": "blue_skies:block/wood/frostbright_log_side"}}

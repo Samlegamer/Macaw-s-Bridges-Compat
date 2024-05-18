@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/bridge/bridge_stone/parent/inventory",
+"textures":{"2": "buzzier_bees:block/honeycomb_bricks",
+"particle": "minecraft:block/honeycomb_block",
+"2_2": "minecraft:block/honeycomb_block"}}

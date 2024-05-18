@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/bridge/bridge_wood/parent/corner_torch",
+	"textures": {
+		"5": "byg:block/fir/planks",
+		"0": "byg:block/fir/log",
+		"4": "mcwbridges:block/torch",
+		"particle": "byg:block/fir/log"
+	}
+}

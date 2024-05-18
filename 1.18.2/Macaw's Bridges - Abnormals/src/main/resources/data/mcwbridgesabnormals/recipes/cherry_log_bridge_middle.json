@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "environmental:cherry_fence"
+        },
+        
+        "W":
+        {
+            "item": "environmental:cherry_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesabnormals:cherry_log_bridge_middle",
+        "count": 4
+    },
+    "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "environmental"
+    }
+  ]
+}

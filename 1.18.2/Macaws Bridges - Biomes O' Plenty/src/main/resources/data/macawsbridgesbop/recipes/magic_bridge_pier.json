@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomesoplenty:magic_fence"
+        },
+        
+        "W":
+        {
+            "item": "biomesoplenty:magic_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbop:magic_bridge_pier",
+        "count": 3
+    }
+}

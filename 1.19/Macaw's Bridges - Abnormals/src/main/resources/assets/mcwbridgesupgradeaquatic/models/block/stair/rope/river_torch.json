@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/stair/rope/parent/torch",
+"textures":{"4": "mcwbridgesupgradeaquatic/river_log",
+"1_3": "minecraft:block/torch",
+"particle": "mcwbridgesupgradeaquatic/river_log"}}

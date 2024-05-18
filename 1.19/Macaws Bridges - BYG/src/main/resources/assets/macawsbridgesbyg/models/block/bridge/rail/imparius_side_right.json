@@ -1,0 +1,5 @@
+{"parent":"mcwbridges:block/bridge/rail/parent/side_right",
+"textures":{"0": "byg:block/imparius/log",
+"2":"byg:block/imparius/planks",
+"3":"byg:block/imparius/log_top",
+"particle":"byg:block/imparius/planks"}}

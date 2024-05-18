@@ -1,0 +1,5 @@
+{"parent":"mcwbridges:block/bridge/rope/parent/middle",
+"textures":{"0": "mcwbridges:block/lead_knot_vert",
+"4": "blue_skies:block/wood/dusk_log_side",
+"particle": "blue_skies:block/wood/dusk_log_side",
+"1_4": "mcwbridges:block/lead_knot"}}

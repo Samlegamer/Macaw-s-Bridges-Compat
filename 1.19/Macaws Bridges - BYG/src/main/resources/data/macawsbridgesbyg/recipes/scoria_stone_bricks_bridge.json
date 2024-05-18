@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:scoria_stonebrick_wall"
+        },
+        
+        "W":
+        {
+            "item": "byg:scoria_stonebrick_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:scoria_stone_bricks_bridge",
+        "count": 4
+    }
+}

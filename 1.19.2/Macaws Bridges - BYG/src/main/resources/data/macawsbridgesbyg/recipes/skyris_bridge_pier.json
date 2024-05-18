@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:skyris_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:skyris_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:skyris_bridge_pier",
+        "count": 3
+    }
+}

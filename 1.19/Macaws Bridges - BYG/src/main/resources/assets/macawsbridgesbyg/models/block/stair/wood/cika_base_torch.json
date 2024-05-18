@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/stair/wood/parent/base_torch",
+	"textures": {
+		"2": "byg:block/cika/planks",
+		"particle": "byg:block/cika/log",
+		"4": "mcwbridges:block/torch",
+		"1_1": "byg:block/cika/log"
+	}
+}

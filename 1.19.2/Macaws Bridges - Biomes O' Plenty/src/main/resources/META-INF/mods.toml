@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Samlegamer/Macaw-s-Bridges-Compat/issues"
+
+[[mods]]
+modId="macawsbridgesbop"
+version="1.19.2-1.4"
+displayName="Macaw's Bridges - BOP"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/macaws-bridges-biome-o-plenty"
+logoFile="img.png"
+credits="sketch_macaw"
+authors="Samlegamer"
+
+description='''
+Compatibility Biome O' Plenty with Macaw's Bridges for Minecraft 1.19.2.
+'''
+
+[[dependencies.macawsbridgesbop]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.macawsbridgesbop]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"

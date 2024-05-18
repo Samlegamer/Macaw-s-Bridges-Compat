@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/bridge/bridge_wood/parent/inventory",
+"textures": {"0": "byg:block/pine/log",
+"2": "byg:block/pine/planks",
+"particle": "byg:block/pine/log"}}

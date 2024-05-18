@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/stair/stone/parent/left_torch",
+	"textures": {
+		"1": "byg:block/scoria_stone",
+		"2": "byg:block/scoria_stone_bricks",
+		"4": "mcwbridges:block/torch",
+		"particle": "byg:block/scoria_stone_bricks"
+	}
+}

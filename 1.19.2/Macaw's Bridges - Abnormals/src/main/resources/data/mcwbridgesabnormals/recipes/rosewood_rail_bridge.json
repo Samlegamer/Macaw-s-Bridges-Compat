@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "atmospheric:rosewood_fence"
+        },
+        
+        "W":
+        {
+            "item": "atmospheric:rosewood_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesabnormals:rosewood_rail_bridge",
+        "count": 4
+    },
+    "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "atmospheric"
+    }
+  ]
+}

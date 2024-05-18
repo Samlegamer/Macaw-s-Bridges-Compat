@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/stair/wood/parent/right",
+"textures":{"2": "mcwbridgesupgradeaquatic/river_planks",
+"particle": "mcwbridgesupgradeaquatic/river_log",
+"1_1": "mcwbridgesupgradeaquatic/river_log"}}

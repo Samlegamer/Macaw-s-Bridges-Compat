@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/bridge/bridge_stone/parent/inventory",
+"textures":{"2": "byg:block/blue_sandstone",
+"particle": "byg:block/blue_sand",
+"2_2": "byg:block/blue_sand"}}

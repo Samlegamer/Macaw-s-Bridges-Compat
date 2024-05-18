@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/support_pier/wooden/parent/pillar_middle",
+	"textures": {
+		"0": "byg:block/aspen/log",
+		"1": "byg:block/aspen/stripped_log",
+		"2": "byg:block/aspen/planks",
+		"particle": "byg:block/aspen/log"
+	}
+}

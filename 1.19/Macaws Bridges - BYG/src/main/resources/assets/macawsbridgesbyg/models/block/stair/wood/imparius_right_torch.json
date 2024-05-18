@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/stair/wood/parent/right_torch",
+	"textures": {
+		"2": "byg:block/imparius/planks",
+		"particle": "byg:block/imparius/log",
+		"4": "mcwbridges:block/torch",
+		"1_1": "byg:block/imparius/log"
+	}
+}

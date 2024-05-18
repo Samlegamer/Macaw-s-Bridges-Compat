@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/stair/stone/parent/left_torch",
+	"textures": {
+		"1": "byg:block/red_rock",
+		"2": "byg:block/red_rock_bricks",
+		"4": "mcwbridges:block/torch",
+		"particle": "byg:block/red_rock_bricks"
+	}
+}

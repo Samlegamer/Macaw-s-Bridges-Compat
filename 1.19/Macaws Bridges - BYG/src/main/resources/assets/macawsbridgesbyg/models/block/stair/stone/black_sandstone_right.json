@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/stair/stone/parent/right",
+"textures":{"1": "byg:block/black_sand",
+"2": "byg:block/black_sandstone",
+"particle": "byg:block/black_sandstone"}}

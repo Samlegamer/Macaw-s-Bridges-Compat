@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/stair/stone/parent/double_torch",
+	"textures": {
+		"1": "byg:block/soapstone",
+		"2": "byg:block/soapstone_bricks",
+		"4": "mcwbridges:block/torch",
+		"particle": "byg:block/soapstone_bricks"
+	}
+}

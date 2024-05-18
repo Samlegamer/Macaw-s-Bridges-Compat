@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:willow_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:willow_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:willow_rail_bridge",
+        "count": 4
+    }
+}

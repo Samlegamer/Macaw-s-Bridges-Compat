@@ -1,0 +1,5 @@
+{"parent": "mcwbridges:block/support_pier/wooden/parent/pillar_middle",
+"textures":{"0": "upgrade_aquatic:block/river_log",
+"1": "upgrade_aquatic:block/river_log_top",
+"2": "upgrade_aquatic:block/river_planks",
+"particle": "upgrade_aquatic:block/river_log"}}

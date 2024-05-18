@@ -1,0 +1,10 @@
+{
+	"parent": "mcwbridges:block/bridge/bridge_stone/parent/middle_end_torch",
+	"textures": {
+		"5": "byg:block/travertine",
+		"4": "mcwbridges:block/torch",
+		"1": "byg:block/travertine",
+		"2": "byg:block/polished_travertine",
+		"particle": "byg:block/polished_travertine"
+	}
+}

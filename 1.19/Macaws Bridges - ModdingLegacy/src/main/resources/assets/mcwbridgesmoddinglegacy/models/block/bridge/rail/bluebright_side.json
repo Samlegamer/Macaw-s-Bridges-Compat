@@ -1,0 +1,5 @@
+{"parent": "mcwbridges:block/bridge/rail/parent/side",
+"textures":{"0": "blue_skies:block/wood/bluebright_log_side",
+"2": "blue_skies:block/wood/bluebright_planks",
+"3": "blue_skies:block/wood/bluebright_log_top",
+"particle": "blue_skies:block/wood/bluebright_planks"}}

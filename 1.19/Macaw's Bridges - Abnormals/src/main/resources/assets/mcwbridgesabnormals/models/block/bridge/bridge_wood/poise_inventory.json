@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/bridge/bridge_wood/parent/inventory",
+"textures": {"0": "endergetic:block/poise_stem",
+"2": "endergetic:block/poise_planks",
+"particle": "endergetic:block/poise_stem"}}

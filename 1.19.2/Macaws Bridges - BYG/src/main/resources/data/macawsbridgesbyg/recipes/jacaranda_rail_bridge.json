@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:jacaranda_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:jacaranda_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:jacaranda_rail_bridge",
+        "count": 4
+    }
+}

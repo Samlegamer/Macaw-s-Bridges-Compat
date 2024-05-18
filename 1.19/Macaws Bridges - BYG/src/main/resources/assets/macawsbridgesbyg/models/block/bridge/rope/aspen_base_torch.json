@@ -1,0 +1,4 @@
+{"parent":"mcwbridges:block/bridge/rope/parent/base_torch",
+"textures":{"1": "minecraft:block/torch",
+"3": "byg:block/aspen/log",
+"particle": "byg:block/aspen/planks"}}

@@ -1,0 +1,9 @@
+{
+	"parent": "mcwbridges:block/bridge/bridge_wood/parent/middle_end",
+	"textures": {
+		"5": "byg:block/sythian/planks",
+		"0": "byg:block/sythian/log",
+		"1": "byg:block/sythian/planks",
+		"particle": "byg:block/sythian/log"
+	}
+}

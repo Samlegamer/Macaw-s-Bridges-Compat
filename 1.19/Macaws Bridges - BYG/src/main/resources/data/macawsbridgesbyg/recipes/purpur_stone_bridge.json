@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:purpur_stone_wall"
+        },
+        
+        "W":
+        {
+            "item": "byg:purpur_stone_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:purpur_stone_bridge",
+        "count": 4
+    }
+}

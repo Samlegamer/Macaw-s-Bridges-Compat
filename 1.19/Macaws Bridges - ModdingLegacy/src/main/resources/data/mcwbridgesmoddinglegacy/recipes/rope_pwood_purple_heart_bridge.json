@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "minecraft:string"
+        },
+        
+        "W":
+        {
+            "item": "premium_wood:purple_heart_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesmoddinglegacy:rope_pwood_purple_heart_bridge",
+        "count": 4
+    }
+}
