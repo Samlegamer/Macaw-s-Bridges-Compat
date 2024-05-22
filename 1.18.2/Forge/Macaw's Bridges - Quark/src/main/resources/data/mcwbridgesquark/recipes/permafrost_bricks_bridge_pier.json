@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "quark:permafrost_bricks_fence"
+        },
+        
+        "W":
+        {
+            "item": "quark:permafrost_bricks_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesquark:permafrost_bricks_bridge_pier",
+        "count": 3
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "quark:shale_bricks_wall"
+        },
+        
+        "W":
+        {
+            "item": "quark:shale_bricks_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesquark:shale_bricks_bridge",
+        "count": 4
+    }
+}

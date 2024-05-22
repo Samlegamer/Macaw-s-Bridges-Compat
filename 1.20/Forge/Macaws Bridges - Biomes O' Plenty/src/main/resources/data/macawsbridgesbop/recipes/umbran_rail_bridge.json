@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomesoplenty:umbran_fence"
+        },
+        
+        "W":
+        {
+            "item": "biomesoplenty:umbran_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbop:umbran_rail_bridge",
+        "count": 4
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:mangrove_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:mangrove_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:mangrove_bridge_pier",
+        "count": 3
+    }
+}

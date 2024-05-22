@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:baobab_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:baobab_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:baobab_rail_bridge",
+        "count": 4
+    }
+}

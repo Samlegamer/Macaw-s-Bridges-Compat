@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/stair/stone/parent/base",
+"textures":{"1": "minecraft:block/tuff",
+"2": "quark:block/tuff_bricks",
+"particle": "quark:block/tuff_bricks"}}

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "quark:shale_bricks_fence"
+        },
+        
+        "W":
+        {
+            "item": "quark:shale_bricks_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesquark:shale_bricks_bridge_pier",
+        "count": 3
+    }
+}

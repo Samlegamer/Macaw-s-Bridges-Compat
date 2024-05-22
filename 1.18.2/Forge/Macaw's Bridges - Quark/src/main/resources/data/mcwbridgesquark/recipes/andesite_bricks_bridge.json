@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "quark:andesite_bricks_wall"
+        },
+        
+        "W":
+        {
+            "item": "quark:andesite_bricks_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesquark:andesite_bricks_bridge",
+        "count": 4
+    }
+}

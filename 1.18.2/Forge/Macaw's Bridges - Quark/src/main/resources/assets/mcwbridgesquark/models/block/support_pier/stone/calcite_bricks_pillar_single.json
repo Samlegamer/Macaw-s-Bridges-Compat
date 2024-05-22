@@ -1,0 +1,3 @@
+{"parent": "mcwbridges:block/support_pier/stone/parent/pillar_single",
+"textures":{"0": "quark:block/calcite_bricks",
+"particle": "quark:block/calcite_bricks"}}

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "quark:netherrack_bricks_fence"
+        },
+        
+        "W":
+        {
+            "item": "quark:netherrack_bricks_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesquark:netherrack_bricks_bridge_pier",
+        "count": 3
+    }
+}

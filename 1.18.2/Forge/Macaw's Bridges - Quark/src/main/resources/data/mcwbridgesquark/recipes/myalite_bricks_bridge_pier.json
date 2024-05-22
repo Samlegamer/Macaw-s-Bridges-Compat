@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "quark:myalite_bricks_fence"
+        },
+        
+        "W":
+        {
+            "item": "quark:myalite_bricks_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesquark:myalite_bricks_bridge_pier",
+        "count": 3
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "quark:limestone_bricks_fence"
+        },
+        
+        "W":
+        {
+            "item": "quark:limestone_bricks_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesquark:limestone_bricks_bridge_pier",
+        "count": 3
+    }
+}

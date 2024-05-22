@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:ether_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:ether_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:ether_bridge_pier",
+        "count": 3
+    }
+}

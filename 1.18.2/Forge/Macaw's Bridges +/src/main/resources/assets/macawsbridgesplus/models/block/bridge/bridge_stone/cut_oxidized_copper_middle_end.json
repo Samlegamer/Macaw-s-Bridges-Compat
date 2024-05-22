@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/bridge/bridge_stone/parent/middle_end",
+"textures":{"1": "minecraft:block/oxidized_cut_copper",
+"2": "minecraft:block/oxidized_cut_copper",
+"particle": "minecraft:block/oxidized_cut_copper"}}

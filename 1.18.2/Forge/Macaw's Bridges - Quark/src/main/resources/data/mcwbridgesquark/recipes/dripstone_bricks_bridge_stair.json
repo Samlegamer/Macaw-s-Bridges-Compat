@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "  F",
+    " FF",
+	"FFF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "mcwbridgesquark:dripstone_bricks_bridge"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesquark:dripstone_bricks_bridge_stair",
+        "count": 6
+    }
+}

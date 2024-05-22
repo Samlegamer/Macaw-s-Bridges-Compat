@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:block",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "macawsbridgesplus:waxed_cut_weathered_copper_bridge"
+				}
+			]
+		}
+	]
+}

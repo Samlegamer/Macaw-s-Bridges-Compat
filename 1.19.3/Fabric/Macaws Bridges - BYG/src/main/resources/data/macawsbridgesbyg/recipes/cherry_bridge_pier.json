@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:cherry_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:cherry_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:cherry_bridge_pier",
+        "count": 3
+    }
+}

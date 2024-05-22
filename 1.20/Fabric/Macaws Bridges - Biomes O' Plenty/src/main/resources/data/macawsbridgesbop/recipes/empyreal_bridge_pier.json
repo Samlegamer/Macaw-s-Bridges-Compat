@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomesoplenty:empyreal_fence"
+        },
+        
+        "W":
+        {
+            "item": "biomesoplenty:empyreal_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbop:empyreal_bridge_pier",
+        "count": 3
+    }
+}

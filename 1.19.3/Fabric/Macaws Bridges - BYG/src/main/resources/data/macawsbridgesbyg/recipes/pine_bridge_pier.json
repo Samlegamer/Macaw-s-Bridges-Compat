@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:pine_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:pine_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:pine_bridge_pier",
+        "count": 3
+    }
+}

@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/bridge/bridge_stone/parent/inventory",
+"textures":{"2": "quark:block/shale_bricks",
+"particle": "quark:block/shale",
+"2_2": "quark:block/shale"}}

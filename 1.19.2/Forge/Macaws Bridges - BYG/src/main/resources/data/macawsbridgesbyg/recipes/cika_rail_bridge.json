@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:cika_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:cika_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:cika_rail_bridge",
+        "count": 4
+    }
+}
