@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/bridge/bridge_stone/parent/inventory",
+"textures":{"2": "minecraft:block/exposed_cut_copper",
+"particle": "minecraft:block/exposed_cut_copper",
+"2_2": "minecraft:block/exposed_cut_copper"}}

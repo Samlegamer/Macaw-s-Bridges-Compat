@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:lament_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:lament_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:lament_rail_bridge",
+        "count": 4
+    }
+}

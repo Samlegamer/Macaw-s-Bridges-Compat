@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:polished_travertine_wall"
+        },
+        
+        "W":
+        {
+            "item": "byg:polished_travertine"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:polished_travertine_bridge_pier",
+        "count": 3
+    }
+}

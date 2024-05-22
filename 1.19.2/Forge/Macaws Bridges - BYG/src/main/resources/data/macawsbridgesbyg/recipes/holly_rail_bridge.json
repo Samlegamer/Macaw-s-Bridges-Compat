@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:holly_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:holly_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:holly_rail_bridge",
+        "count": 4
+    }
+}

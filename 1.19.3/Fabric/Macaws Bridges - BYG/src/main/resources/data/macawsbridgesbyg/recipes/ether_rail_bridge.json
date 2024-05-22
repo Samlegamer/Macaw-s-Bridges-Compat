@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:ether_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:ether_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:ether_rail_bridge",
+        "count": 4
+    }
+}

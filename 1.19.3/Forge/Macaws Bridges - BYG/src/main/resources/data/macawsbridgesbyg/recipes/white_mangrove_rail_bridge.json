@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:white_mangrove_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:white_mangrove_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:white_mangrove_rail_bridge",
+        "count": 4
+    }
+}

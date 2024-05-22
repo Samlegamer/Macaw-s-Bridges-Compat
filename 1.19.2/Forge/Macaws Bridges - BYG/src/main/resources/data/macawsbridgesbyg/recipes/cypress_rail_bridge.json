@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:cypress_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:cypress_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:cypress_rail_bridge",
+        "count": 4
+    }
+}

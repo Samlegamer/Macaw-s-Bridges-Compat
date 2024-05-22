@@ -1,0 +1,13 @@
+{
+    "variants": {                                                                        
+        "facing=north,powered=false":  { "model": "macawsbridgesbop:block/bridge/rail/fir", "y": 90},
+		"facing=east,powered=false":  { "model": "macawsbridgesbop:block/bridge/rail/fir"},
+		"facing=south,powered=false":  { "model": "macawsbridgesbop:block/bridge/rail/fir", "y": 90},
+		"facing=west,powered=false":  { "model": "macawsbridgesbop:block/bridge/rail/fir"},
+
+		"facing=north,powered=true":  { "model": "macawsbridgesbop:block/bridge/rail/fir_powered", "y": 90},
+		"facing=east,powered=true":  { "model": "macawsbridgesbop:block/bridge/rail/fir_powered"},
+		"facing=south,powered=true":  { "model": "macawsbridgesbop:block/bridge/rail/fir_powered", "y": 90},
+		"facing=west,powered=true":  { "model": "macawsbridgesbop:block/bridge/rail/fir_powered"}			
+    }
+}

@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/stair/stone/parent/double",
+"textures":{"1": "minecraft:block/diorite",
+"2": "quark:block/diorite_bricks",
+"particle": "quark:block/diorite_bricks"}}

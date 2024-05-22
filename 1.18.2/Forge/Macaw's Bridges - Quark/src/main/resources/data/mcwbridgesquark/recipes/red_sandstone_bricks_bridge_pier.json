@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "quark:red_sandstone_bricks_fence"
+        },
+        
+        "W":
+        {
+            "item": "quark:red_sandstone_bricks_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesquark:red_sandstone_bricks_bridge_pier",
+        "count": 3
+    }
+}

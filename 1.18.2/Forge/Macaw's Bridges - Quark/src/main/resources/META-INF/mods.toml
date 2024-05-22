@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Samlegamer/Macaw-s-Bridges-Compat/issues" #optional
+
+[[mods]] #mandatory
+modId="mcwbridgesquark"
+version="1.18.2-1.0"
+displayName="Macaw's Bridges - Quark"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/macaws-bridges-quark"
+logoFile="img.png"
+credits="sketch_macaw"
+authors="Samlegamer"
+
+description='''
+Compatibility Quark with Macaw's Bridges for Minecraft 1.18.2.
+'''
+
+[[dependencies.mcwbridgesquark]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.mcwbridgesquark]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="AFTER"
+    side="BOTH"

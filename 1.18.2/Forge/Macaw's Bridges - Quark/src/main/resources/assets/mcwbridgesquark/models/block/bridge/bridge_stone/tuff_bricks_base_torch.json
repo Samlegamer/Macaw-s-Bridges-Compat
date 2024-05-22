@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/bridge/bridge_stone/parent/base_torch",
+"textures":{"1": "quark:block/tuff_bricks",
+"3": "minecraft:block/torch",
+"particle": "quark:block/tuff_bricks"}}

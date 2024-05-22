@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "macawsbridgesbop",
+	"version": "1.20.4-1.2",
+	"name": "Macaw's Bridges - BOP",
+	"description": "Compatibility Biome O' Plenty with Macaw's Bridges for Minecraft 1.20.4 !",
+	"authors": [
+		"Samlegamer"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/macaws-bridges-biome-o-plenty",
+		"sources": "https://github.com/Samlegamer/Macaw-s-Bridges-Compat/tree/1.20"
+	},
+	"license": "All Right Reserved",
+	"icon": "assets/img.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.samlegamer.macawsbridgesbop.MacawsBridgesBOP"
+		],
+		"client": [
+			"fr.samlegamer.macawsbridgesbop.client.MBBOPClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

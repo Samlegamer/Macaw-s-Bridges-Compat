@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "byg:imparius_fence"
+        },
+        
+        "W":
+        {
+            "item": "byg:imparius_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:imparius_log_bridge_middle",
+        "count": 4
+    }
+}

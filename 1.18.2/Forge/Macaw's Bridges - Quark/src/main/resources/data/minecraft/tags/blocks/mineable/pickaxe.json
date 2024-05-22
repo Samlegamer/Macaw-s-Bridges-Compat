@@ -1,0 +1,83 @@
+{
+  "replace": false,
+  "values": [
+    "mcwbridgesquark:andesite_bricks_bridge",
+
+    "mcwbridgesquark:andesite_bricks_bridge_pier",
+
+    "mcwbridgesquark:andesite_bricks_bridge_stair",
+
+    "mcwbridgesquark:calcite_bricks_bridge",
+
+    "mcwbridgesquark:calcite_bricks_bridge_pier",
+
+    "mcwbridgesquark:calcite_bricks_bridge_stair",
+
+    "mcwbridgesquark:diorite_bricks_bridge",
+
+    "mcwbridgesquark:diorite_bricks_bridge_pier",
+
+    "mcwbridgesquark:diorite_bricks_bridge_stair",
+
+    "mcwbridgesquark:dripstone_bricks_bridge",
+
+    "mcwbridgesquark:dripstone_bricks_bridge_pier",
+
+    "mcwbridgesquark:dripstone_bricks_bridge_stair",
+
+    "mcwbridgesquark:jasper_bricks_bridge",
+
+    "mcwbridgesquark:jasper_bricks_bridge_pier",
+
+    "mcwbridgesquark:jasper_bricks_bridge_stair",
+
+    "mcwbridgesquark:limestone_bricks_bridge",
+
+    "mcwbridgesquark:limestone_bricks_bridge_pier",
+
+    "mcwbridgesquark:limestone_bricks_bridge_stair",
+
+    "mcwbridgesquark:myalite_bricks_bridge",
+
+    "mcwbridgesquark:myalite_bricks_bridge_pier",
+
+    "mcwbridgesquark:myalite_bricks_bridge_stair",
+
+    "mcwbridgesquark:netherrack_bricks_bridge",
+
+    "mcwbridgesquark:netherrack_bricks_bridge_pier",
+
+    "mcwbridgesquark:netherrack_bricks_bridge_stair",
+
+    "mcwbridgesquark:permafrost_bricks_bridge",
+
+    "mcwbridgesquark:permafrost_bricks_bridge_pier",
+
+    "mcwbridgesquark:permafrost_bricks_bridge_stair",
+
+    "mcwbridgesquark:red_sandstone_bricks_bridge",
+
+    "mcwbridgesquark:red_sandstone_bricks_bridge_pier",
+
+    "mcwbridgesquark:red_sandstone_bricks_bridge_stair",
+
+    "mcwbridgesquark:shale_bricks_bridge",
+
+    "mcwbridgesquark:shale_bricks_bridge_pier",
+
+    "mcwbridgesquark:shale_bricks_bridge_stair",
+
+    "mcwbridgesquark:soul_sandstone_bricks_bridge",
+
+    "mcwbridgesquark:soul_sandstone_bricks_bridge_pier",
+
+    "mcwbridgesquark:soul_sandstone_bricks_bridge_stair",
+
+    "mcwbridgesquark:tuff_bricks_bridge",
+
+    "mcwbridgesquark:tuff_bricks_bridge_pier",
+
+    "mcwbridgesquark:tuff_bricks_bridge_stair"
+
+  ]
+}

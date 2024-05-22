@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "minecraft:string"
+        },
+        
+        "W":
+        {
+            "item": "byg:holly_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:rope_holly_bridge",
+        "count": 4
+    }
+}

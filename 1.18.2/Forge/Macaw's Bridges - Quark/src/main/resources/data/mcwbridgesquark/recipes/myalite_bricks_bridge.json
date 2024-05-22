@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "quark:myalite_bricks_wall"
+        },
+        
+        "W":
+        {
+            "item": "quark:myalite_bricks_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesquark:myalite_bricks_bridge",
+        "count": 4
+    }
+}

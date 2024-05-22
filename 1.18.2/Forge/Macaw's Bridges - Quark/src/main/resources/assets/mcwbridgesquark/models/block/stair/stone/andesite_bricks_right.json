@@ -1,0 +1,4 @@
+{"parent": "mcwbridges:block/stair/stone/parent/right",
+"textures":{"1": "minecraft:block/andesite",
+"2": "quark:block/andesite_bricks",
+"particle": "quark:block/andesite_bricks"}}

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "minecraft:string"
+        },
+        
+        "W":
+        {
+            "item": "byg:palm_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:rope_palm_bridge",
+        "count": 4
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "quark:diorite_bricks_fence"
+        },
+        
+        "W":
+        {
+            "item": "quark:diorite_bricks_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesquark:diorite_bricks_bridge_pier",
+        "count": 3
+    }
+}
