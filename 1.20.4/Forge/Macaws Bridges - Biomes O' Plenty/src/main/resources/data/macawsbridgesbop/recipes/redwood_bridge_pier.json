@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomesoplenty:redwood_fence"
+        },
+        
+        "W":
+        {
+            "item": "biomesoplenty:redwood_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbop:redwood_bridge_pier",
+        "count": 3
+    }
+}
