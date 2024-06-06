@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "minecraft:string"
+        },
+        
+        "W":
+        {
+            "item": "upgrade_aquatic:river_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesabnormals:rope_river_bridge",
+        "count": 4
+    },
+    "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "upgrade_aquatic"
+    }
+  ]
+}

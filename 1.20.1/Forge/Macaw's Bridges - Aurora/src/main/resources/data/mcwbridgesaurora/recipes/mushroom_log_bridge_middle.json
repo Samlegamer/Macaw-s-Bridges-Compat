@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "enhanced_mushrooms:mushroom_fence"
+        },
+        
+        "W":
+        {
+            "item": "enhanced_mushrooms:mushroom_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesaurora:mushroom_log_bridge_middle",
+        "count": 4
+    }
+}

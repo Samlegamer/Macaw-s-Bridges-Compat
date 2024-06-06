@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "  F",
+    " FF",
+	"FFF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "mcwbridgesaurora:rope_mushroom_bridge"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesaurora:mushroom_rope_bridge_stair",
+        "count": 6
+    }
+}

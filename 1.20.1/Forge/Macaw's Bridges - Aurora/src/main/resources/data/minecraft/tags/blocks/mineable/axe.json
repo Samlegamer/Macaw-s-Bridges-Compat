@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "mcwbridgesaurora:cypress_log_bridge_middle",
+    "mcwbridgesaurora:rope_cypress_bridge",
+    "mcwbridgesaurora:cypress_bridge_pier",
+    "mcwbridgesaurora:cypress_log_bridge_stair",
+    "mcwbridgesaurora:cypress_rail_bridge",
+    "mcwbridgesaurora:mushroom_log_bridge_middle",
+    "mcwbridgesaurora:rope_mushroom_bridge",
+    "mcwbridgesaurora:mushroom_bridge_pier",
+    "mcwbridgesaurora:mushroom_log_bridge_stair",
+    "mcwbridgesaurora:mushroom_rail_bridge",
+    "mcwbridgesaurora:mushroom_rope_bridge_stair",
+    "mcwbridgesaurora:cypress_rope_bridge_stair"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "upgrade_aquatic:driftwood_fence"
+        },
+        
+        "W":
+        {
+            "item": "upgrade_aquatic:driftwood_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesabnormals:driftwood_rail_bridge",
+        "count": 4
+    },
+    "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "upgrade_aquatic"
+    }
+  ]
+}
