@@ -1,0 +1,148 @@
+{
+  "replace": false,
+  "values": [
+    "mcwbridgesmoddinglegacy:bsky_bluebright_log_bridge_middle",
+
+    "mcwbridgesmoddinglegacy:rope_bsky_bluebright_bridge",
+
+    "mcwbridgesmoddinglegacy:bsky_bluebright_bridge_pier",
+
+    "mcwbridgesmoddinglegacy:bsky_bluebright_log_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:bsky_bluebright_rope_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:bsky_bluebright_rail_bridge",
+
+    "mcwbridgesmoddinglegacy:bsky_dusk_log_bridge_middle",
+
+    "mcwbridgesmoddinglegacy:rope_bsky_dusk_bridge",
+
+    "mcwbridgesmoddinglegacy:bsky_dusk_bridge_pier",
+
+    "mcwbridgesmoddinglegacy:bsky_dusk_log_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:bsky_dusk_rope_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:bsky_dusk_rail_bridge",
+
+    "mcwbridgesmoddinglegacy:bsky_frostbright_log_bridge_middle",
+
+    "mcwbridgesmoddinglegacy:rope_bsky_frostbright_bridge",
+
+    "mcwbridgesmoddinglegacy:bsky_frostbright_bridge_pier",
+
+    "mcwbridgesmoddinglegacy:bsky_frostbright_log_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:bsky_frostbright_rope_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:bsky_frostbright_rail_bridge",
+
+    "mcwbridgesmoddinglegacy:bsky_lunar_log_bridge_middle",
+
+    "mcwbridgesmoddinglegacy:rope_bsky_lunar_bridge",
+
+    "mcwbridgesmoddinglegacy:bsky_lunar_bridge_pier",
+
+    "mcwbridgesmoddinglegacy:bsky_lunar_log_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:bsky_lunar_rope_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:bsky_lunar_rail_bridge",
+
+    "mcwbridgesmoddinglegacy:bsky_maple_log_bridge_middle",
+
+    "mcwbridgesmoddinglegacy:rope_bsky_maple_bridge",
+
+    "mcwbridgesmoddinglegacy:bsky_maple_bridge_pier",
+
+    "mcwbridgesmoddinglegacy:bsky_maple_log_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:bsky_maple_rope_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:bsky_maple_rail_bridge",
+
+    "mcwbridgesmoddinglegacy:bsky_starlit_log_bridge_middle",
+
+    "mcwbridgesmoddinglegacy:rope_bsky_starlit_bridge",
+
+    "mcwbridgesmoddinglegacy:bsky_starlit_bridge_pier",
+
+    "mcwbridgesmoddinglegacy:bsky_starlit_log_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:bsky_starlit_rope_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:bsky_starlit_rail_bridge",
+
+    "mcwbridgesmoddinglegacy:pwood_magic_log_bridge_middle",
+
+    "mcwbridgesmoddinglegacy:rope_pwood_magic_bridge",
+
+    "mcwbridgesmoddinglegacy:pwood_magic_bridge_pier",
+
+    "mcwbridgesmoddinglegacy:pwood_magic_log_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:pwood_magic_rope_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:pwood_magic_rail_bridge",
+
+    "mcwbridgesmoddinglegacy:pwood_maple_log_bridge_middle",
+
+    "mcwbridgesmoddinglegacy:rope_pwood_maple_bridge",
+
+    "mcwbridgesmoddinglegacy:pwood_maple_bridge_pier",
+
+    "mcwbridgesmoddinglegacy:pwood_maple_log_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:pwood_maple_rope_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:pwood_maple_rail_bridge",
+
+    "mcwbridgesmoddinglegacy:pwood_purple_heart_log_bridge_middle",
+
+    "mcwbridgesmoddinglegacy:rope_pwood_purple_heart_bridge",
+
+    "mcwbridgesmoddinglegacy:pwood_purple_heart_bridge_pier",
+
+    "mcwbridgesmoddinglegacy:pwood_purple_heart_log_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:pwood_purple_heart_rope_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:pwood_purple_heart_rail_bridge",
+
+    "mcwbridgesmoddinglegacy:pwood_silverbell_log_bridge_middle",
+
+    "mcwbridgesmoddinglegacy:rope_pwood_silverbell_bridge",
+
+    "mcwbridgesmoddinglegacy:pwood_silverbell_bridge_pier",
+
+    "mcwbridgesmoddinglegacy:pwood_silverbell_log_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:pwood_silverbell_rope_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:pwood_silverbell_rail_bridge",
+
+    "mcwbridgesmoddinglegacy:pwood_tiger_log_bridge_middle",
+
+    "mcwbridgesmoddinglegacy:rope_pwood_tiger_bridge",
+
+    "mcwbridgesmoddinglegacy:pwood_tiger_bridge_pier",
+
+    "mcwbridgesmoddinglegacy:pwood_tiger_log_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:pwood_tiger_rope_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:pwood_tiger_rail_bridge",
+
+    "mcwbridgesmoddinglegacy:pwood_willow_log_bridge_middle",
+
+    "mcwbridgesmoddinglegacy:rope_pwood_willow_bridge",
+
+    "mcwbridgesmoddinglegacy:pwood_willow_bridge_pier",
+
+    "mcwbridgesmoddinglegacy:pwood_willow_log_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:pwood_willow_rope_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:pwood_willow_rail_bridge"
+  ]
+}

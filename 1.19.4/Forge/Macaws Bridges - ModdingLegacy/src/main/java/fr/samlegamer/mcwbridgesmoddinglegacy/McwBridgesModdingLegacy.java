@@ -83,6 +83,43 @@ public class McwBridgesModdingLegacy
 		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.bsky_lunar_log_bridge_stair.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.bsky_maple_log_bridge_stair.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.bsky_starlit_log_bridge_stair.get(), RenderType.cutout());
+
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_magic_log_bridge_middle.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_magic_rope_bridge_stair.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.rope_pwood_magic_bridge.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_magic_bridge_pier.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_magic_log_bridge_stair.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_magic_rail_bridge.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_maple_log_bridge_middle.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_maple_rope_bridge_stair.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.rope_pwood_maple_bridge.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_maple_bridge_pier.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_maple_log_bridge_stair.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_maple_rail_bridge.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_purple_heart_log_bridge_middle.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_purple_heart_rope_bridge_stair.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.rope_pwood_purple_heart_bridge.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_purple_heart_bridge_pier.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_purple_heart_log_bridge_stair.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_purple_heart_rail_bridge.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_silverbell_log_bridge_middle.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_silverbell_rope_bridge_stair.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.rope_pwood_silverbell_bridge.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_silverbell_bridge_pier.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_silverbell_log_bridge_stair.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_silverbell_rail_bridge.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_tiger_log_bridge_middle.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_tiger_rope_bridge_stair.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.rope_pwood_tiger_bridge.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_tiger_bridge_pier.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_tiger_log_bridge_stair.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_tiger_rail_bridge.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_willow_log_bridge_middle.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_willow_rope_bridge_stair.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.rope_pwood_willow_bridge.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_willow_bridge_pier.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_willow_log_bridge_stair.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(MBMLBlockRegistry.pwood_willow_rail_bridge.get(), RenderType.cutout());
 	}
 	
 	private void CreateTab(CreativeModeTabEvent.Register event)
@@ -96,245 +133,251 @@ public class McwBridgesModdingLegacy
     {
     	 if (event.getTab() == MB_ML)
     	 {
-    		 event.accept(MBMLBlockRegistry.bsky_bluebright_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_bsky_bluebright_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_bluebright_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_bluebright_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_bluebright_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_bluebright_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_cherry_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_bsky_cherry_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_cherry_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_cherry_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_cherry_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_cherry_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_crystallized_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_bsky_crystallized_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_crystallized_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_crystallized_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_crystallized_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_crystallized_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_dusk_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_bsky_dusk_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_dusk_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_dusk_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_dusk_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_dusk_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_frostbright_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_bsky_frostbright_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_frostbright_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_frostbright_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_frostbright_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_frostbright_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_lunar_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_bsky_lunar_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_lunar_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_lunar_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_lunar_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_lunar_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_maple_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_bsky_maple_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_maple_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_maple_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_maple_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_maple_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_starlit_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_bsky_starlit_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_starlit_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_starlit_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_starlit_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.bsky_starlit_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_magic_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_pwood_magic_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_magic_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_magic_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_magic_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_magic_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_maple_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_pwood_maple_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_maple_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_maple_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_maple_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_maple_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_pwood_purple_heart_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_silverbell_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_pwood_silverbell_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_silverbell_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_silverbell_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_silverbell_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_silverbell_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_tiger_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_pwood_tiger_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_tiger_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_tiger_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_tiger_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_tiger_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_willow_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_pwood_willow_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_willow_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_willow_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_willow_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_willow_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_magic_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_pwood_magic_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_magic_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_magic_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_magic_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_magic_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_maple_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_pwood_maple_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_maple_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_maple_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_maple_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_maple_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_pwood_purple_heart_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_silverbell_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_pwood_silverbell_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_silverbell_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_silverbell_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_silverbell_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_silverbell_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_tiger_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_pwood_tiger_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_tiger_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_tiger_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_tiger_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_tiger_rail_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_willow_log_bridge_middle.get());
-
-    		 event.accept(MBMLBlockRegistry.rope_pwood_willow_bridge.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_willow_bridge_pier.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_willow_log_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_willow_rope_bridge_stair.get());
-
-    		 event.accept(MBMLBlockRegistry.pwood_willow_rail_bridge.get());
+    		 if(ModList.get().isLoaded("blue_skies"))
+    		 {
+	    		 event.accept(MBMLBlockRegistry.bsky_bluebright_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_bsky_bluebright_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_bluebright_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_bluebright_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_bluebright_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_bluebright_rail_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_cherry_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_bsky_cherry_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_cherry_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_cherry_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_cherry_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_cherry_rail_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_crystallized_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_bsky_crystallized_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_crystallized_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_crystallized_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_crystallized_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_crystallized_rail_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_dusk_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_bsky_dusk_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_dusk_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_dusk_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_dusk_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_dusk_rail_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_frostbright_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_bsky_frostbright_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_frostbright_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_frostbright_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_frostbright_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_frostbright_rail_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_lunar_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_bsky_lunar_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_lunar_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_lunar_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_lunar_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_lunar_rail_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_maple_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_bsky_maple_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_maple_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_maple_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_maple_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_maple_rail_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_starlit_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_bsky_starlit_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_starlit_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_starlit_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_starlit_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.bsky_starlit_rail_bridge.get());
+    		 }
+    		 
+    		 if(ModList.get().isLoaded("premium_wood"))
+    		 {
+	    		 event.accept(MBMLBlockRegistry.pwood_magic_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_pwood_magic_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_magic_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_magic_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_magic_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_magic_rail_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_maple_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_pwood_maple_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_maple_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_maple_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_maple_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_maple_rail_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_pwood_purple_heart_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_rail_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_silverbell_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_pwood_silverbell_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_silverbell_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_silverbell_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_silverbell_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_silverbell_rail_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_tiger_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_pwood_tiger_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_tiger_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_tiger_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_tiger_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_tiger_rail_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_willow_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_pwood_willow_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_willow_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_willow_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_willow_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_willow_rail_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_magic_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_pwood_magic_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_magic_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_magic_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_magic_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_magic_rail_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_maple_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_pwood_maple_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_maple_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_maple_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_maple_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_maple_rail_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_pwood_purple_heart_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_purple_heart_rail_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_silverbell_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_pwood_silverbell_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_silverbell_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_silverbell_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_silverbell_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_silverbell_rail_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_tiger_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_pwood_tiger_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_tiger_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_tiger_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_tiger_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_tiger_rail_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_willow_log_bridge_middle.get());
+	
+	    		 event.accept(MBMLBlockRegistry.rope_pwood_willow_bridge.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_willow_bridge_pier.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_willow_log_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_willow_rope_bridge_stair.get());
+	
+	    		 event.accept(MBMLBlockRegistry.pwood_willow_rail_bridge.get());
+    		 }
     	 }
     }
 	
