@@ -27,7 +27,7 @@ public class MBABlocksRegistry
 	public static final DeferredRegister<Item> ITEMS_REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, McwBridgesAbnormals.MODID);
 	public static final DeferredRegister<CreativeModeTab> Item_Group = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, McwBridgesAbnormals.MODID);
     
-	public static final RegistryObject<CreativeModeTab> MBA_CT = Item_Group.register("tab_mbabnormals", () -> CreativeModeTab.builder().title((Component)Component.literal("Macaw's Furnitures - BOP")).icon(()-> new ItemStack(MBABlocksRegistry.LOGO.get())).build());
+	public static final RegistryObject<CreativeModeTab> MBA_CT = Item_Group.register("tab_mbabnormals", () -> CreativeModeTab.builder().title((Component)Component.literal("Macaw's Bridges - Abnormals")).icon(()-> new ItemStack(MBABlocksRegistry.LOGO.get())).build());
     
 	public static final RegistryObject<Item> LOGO = ITEMS_REGISTRY.register("logo", () -> new Item(new Item.Properties()));
 

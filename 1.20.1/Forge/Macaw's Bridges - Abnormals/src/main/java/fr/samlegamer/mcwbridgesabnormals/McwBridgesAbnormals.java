@@ -1,5 +1,8 @@
 package fr.samlegamer.mcwbridgesabnormals;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import fr.samlegamer.mcwbridgesabnormals.block.MBABlocksRegistry;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -15,15 +18,18 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class McwBridgesAbnormals
 {
 	public static final String MODID = "mcwbridgesabnormals";
-	
+    private static final Logger LOGGER = LogManager.getLogger();
+    
 	public McwBridgesAbnormals()
 	{
+		LOGGER.info("Macaw's Bridges - Abnormals : Loading ...");
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::ClientSetup);
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::AddTab);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		MBABlocksRegistry.BLOCKS_REGISTRY.register(bus);
 		MBABlocksRegistry.ITEMS_REGISTRY.register(bus);
 		MBABlocksRegistry.Item_Group.register(bus);
+		LOGGER.info("Macaw's Bridges - Abnormals : Is Charged");
 	}
 	
 	private void ClientSetup(FMLClientSetupEvent event)
