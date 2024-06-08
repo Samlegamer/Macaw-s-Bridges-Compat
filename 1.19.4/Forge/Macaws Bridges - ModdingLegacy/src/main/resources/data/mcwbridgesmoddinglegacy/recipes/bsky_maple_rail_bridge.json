@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "blue_skies:maple_fence"
+        },
+        
+        "W":
+        {
+            "item": "blue_skies:maple_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwbridgesmoddinglegacy:bsky_maple_rail_bridge",
+        "count": 4
+    }
+}

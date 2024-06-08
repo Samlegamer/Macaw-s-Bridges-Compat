@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "mcwbridgesmoddinglegacy:bsky_crystallized_log_bridge_middle",
+
+    "mcwbridgesmoddinglegacy:rope_bsky_crystallized_bridge",
+
+    "mcwbridgesmoddinglegacy:bsky_crystallized_bridge_pier",
+
+    "mcwbridgesmoddinglegacy:bsky_crystallized_log_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:bsky_crystallized_rope_bridge_stair",
+
+    "mcwbridgesmoddinglegacy:bsky_crystallized_rail_bridge"
+  ]
+}
