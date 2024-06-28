@@ -1,0 +1,11 @@
+{
+  "type" : "minecraft:crafting_shapeless",
+  "group" : "recyclable_bridges",
+  "ingredients" : [ {
+    "item" : "macawsbridgesbop:hellbark_log_bridge_stair"
+  } ],
+  "result" : {
+    "count" : 1,
+    "id" : "macawsbridgesbop:hellbark_log_bridge_middle"
+  }
+}

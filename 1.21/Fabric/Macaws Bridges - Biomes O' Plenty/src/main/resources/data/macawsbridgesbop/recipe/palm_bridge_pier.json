@@ -1,0 +1,17 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "group" : "wooden_piers",
+  "pattern" : [ "WFW" ],
+  "key" : {
+    "F" : {
+      "item" : "biomesoplenty:palm_fence"
+    },
+    "W" : {
+      "item" : "biomesoplenty:palm_log"
+    }
+  },
+  "result" : {
+    "count" : 3,
+    "id" : "macawsbridgesbop:palm_bridge_pier"
+  }
+}

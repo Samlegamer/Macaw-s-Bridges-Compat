@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "macawsbridgesbop:block/support_pier/wooden/willow_pillar_single"
+      "model": "macawsbridgesbop:block/support_pier/willow_pillar_single"
     }
   }
 }

@@ -1,7 +1,5 @@
 package fr.samlegamer.macawsbridgesbop.block;
 
-import java.util.ArrayList;
-
 import com.google.common.base.Supplier;
 import com.mcwbridges.kikoz.MacawsBridges;
 import com.mcwbridges.kikoz.objects.Bridge_Stairs;
@@ -10,7 +8,6 @@ import com.mcwbridges.kikoz.objects.Rail_Bridge;
 import com.mcwbridges.kikoz.objects.Bridge_Block_Rope;
 import com.mcwbridges.kikoz.objects.Bridge_Support;
 import com.mcwbridges.kikoz.util.FuelItemBlock;
-
 import fr.samlegamer.macawsbridgesbop.MacawsBridgesBOP;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;

@@ -1,1 +1,4 @@
-{"parent": "macawsbridgesbop:block/support_pier/wooden/magic_pillar_single"}
+{
+	"parent": "macawsbridgesbop:block/support_pier/magic_pillar_single"
+}
+	

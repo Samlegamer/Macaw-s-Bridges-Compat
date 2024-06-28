@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+	"group": "recyclable_bridges",
+		
+    "ingredients": [
+        {
+            "item": "macawsbridgesbop:empyreal_rope_bridge_stair"
+        }
+    ],
+    "result": {
+        "item": "macawsbridgesbop:rope_empyreal_bridge",
+        "count": 1
+    }
+}

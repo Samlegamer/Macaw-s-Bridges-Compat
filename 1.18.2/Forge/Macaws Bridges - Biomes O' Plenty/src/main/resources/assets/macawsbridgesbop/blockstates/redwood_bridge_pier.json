@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "macawsbridgesbop:block/support_pier/wooden/redwood_pillar_single"
+      "model": "macawsbridgesbop:block/support_pier/redwood_pillar_single"
     }
   }
 }

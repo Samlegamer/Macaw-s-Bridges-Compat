@@ -22,7 +22,6 @@ public class MacawsBridgeBOP
 		MBBOPBlocksRegistry.ITEMS_REGISTRY.register(bus);
 	}
 	
-	
 	private void ClientSetup(FMLClientSetupEvent event)
 	{
 		RenderTypeLookup.setRenderLayer(MBBOPBlocksRegistry.cherry_log_bridge_middle.get(), RenderType.cutout());

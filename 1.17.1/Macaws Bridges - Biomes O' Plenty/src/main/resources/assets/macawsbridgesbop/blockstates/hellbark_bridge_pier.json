@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "macawsbridgesbop:block/support_pier/wooden/hellbark_pillar_single"
+      "model": "macawsbridgesbop:block/support_pier/hellbark_pillar_single"
     }
   }
 }

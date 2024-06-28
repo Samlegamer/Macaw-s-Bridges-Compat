@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/Samlegamer/Macaw-s-Bridges-Compat/issues"
 
 [[mods]] #mandatory
 modId="macawsbridgesbop"
-version="1.18.2-1.5"
+version="1.18.2-1.6"
 displayName="Macaw's Bridges - BOP"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/macaws-bridges-biome-o-plenty"
 logoFile="img.png"

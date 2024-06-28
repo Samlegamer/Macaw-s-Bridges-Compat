@@ -1,0 +1,17 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "group" : "wooden_piers",
+  "pattern" : [ "WFW" ],
+  "key" : {
+    "F" : {
+      "item" : "biomesoplenty:jacaranda_fence"
+    },
+    "W" : {
+      "item" : "biomesoplenty:jacaranda_log"
+    }
+  },
+  "result" : {
+    "count" : 3,
+    "id" : "macawsbridgesbop:jacaranda_bridge_pier"
+  }
+}

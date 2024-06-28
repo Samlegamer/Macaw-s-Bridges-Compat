@@ -1,0 +1,17 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "group" : "log_bridges",
+  "pattern" : [ "F F", "WWW" ],
+  "key" : {
+    "F" : {
+      "item" : "biomesoplenty:palm_fence"
+    },
+    "W" : {
+      "item" : "biomesoplenty:palm_slab"
+    }
+  },
+  "result" : {
+    "count" : 4,
+    "id" : "macawsbridgesbop:palm_log_bridge_middle"
+  }
+}

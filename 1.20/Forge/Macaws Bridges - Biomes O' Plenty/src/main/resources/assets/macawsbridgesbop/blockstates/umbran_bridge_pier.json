@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "macawsbridgesbop:block/support_pier/wooden/umbran_pillar_single"
+      "model": "macawsbridgesbop:block/support_pier/umbran_pillar_single"
     }
   }
 }
