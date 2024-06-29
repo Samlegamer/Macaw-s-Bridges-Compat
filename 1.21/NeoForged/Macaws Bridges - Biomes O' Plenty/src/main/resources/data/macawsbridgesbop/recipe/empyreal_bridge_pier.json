@@ -1,0 +1,17 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "group" : "wooden_piers",
+  "pattern" : [ "WFW" ],
+  "key" : {
+    "F" : {
+      "item" : "biomesoplenty:empyreal_fence"
+    },
+    "W" : {
+      "item" : "biomesoplenty:empyreal_log"
+    }
+  },
+  "result" : {
+    "count" : 3,
+    "id" : "macawsbridgesbop:empyreal_bridge_pier"
+  }
+}

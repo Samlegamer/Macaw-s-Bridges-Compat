@@ -1,0 +1,14 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "group" : "rope_stairs",
+  "pattern" : [ "  F", " FF", "FFF" ],
+  "key" : {
+    "F" : {
+      "item" : "macawsbridgesbop:rope_dead_bridge"
+    }
+  },
+  "result" : {
+    "count" : 6,
+    "id" : "macawsbridgesbop:dead_rope_bridge_stair"
+  }
+}
