@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "wooden_piers",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomeswevegone:holly_fence"
+        },
+        
+        "W":
+        {
+            "item": "biomeswevegone:holly_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:holly_bridge_pier",
+        "count": 3
+    }
+}

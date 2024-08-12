@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "stone_bridges",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomeswevegone:dacite_brick_wall"
+        },
+        
+        "W":
+        {
+            "item": "biomeswevegone:dacite_brick_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:dacite_bricks_bridge",
+        "count": 4
+    }
+}

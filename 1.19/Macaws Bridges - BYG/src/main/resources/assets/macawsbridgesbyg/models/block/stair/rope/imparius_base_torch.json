@@ -1,8 +1,0 @@
-{
-	"parent": "mcwbridges:block/stair/rope/parent/base_torch",
-	"textures": {
-		"2": "byg:block/imparius/planks",
-		"3": "mcwbridges:block/torch",
-	    "particle": "byg:block/imparius/planks"
-	}
-}

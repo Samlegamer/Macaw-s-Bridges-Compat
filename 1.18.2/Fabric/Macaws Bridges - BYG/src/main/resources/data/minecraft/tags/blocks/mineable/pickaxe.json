@@ -2,25 +2,60 @@
   "replace": false,
   "values": [
     "macawsbridgesbyg:cryptic_stone_bridge",
+
     "macawsbridgesbyg:cryptic_stone_bridge_pier",
+
     "macawsbridgesbyg:cryptic_stone_bridge_stair",
+
+    "macawsbridgesbyg:balustrade_cryptic_stone_bridge",
+
     "macawsbridgesbyg:dacite_bricks_bridge",
+
     "macawsbridgesbyg:dacite_bricks_bridge_pier",
+
     "macawsbridgesbyg:dacite_bricks_bridge_stair",
+
+    "macawsbridgesbyg:balustrade_dacite_bricks_bridge",
+
     "macawsbridgesbyg:polished_travertine_bridge",
+
     "macawsbridgesbyg:polished_travertine_bridge_pier",
+
     "macawsbridgesbyg:polished_travertine_bridge_stair",
+
+    "macawsbridgesbyg:balustrade_polished_travertine_bridge",
+
     "macawsbridgesbyg:purpur_stone_bridge",
+
     "macawsbridgesbyg:purpur_stone_bridge_pier",
+
     "macawsbridgesbyg:purpur_stone_bridge_stair",
+
+    "macawsbridgesbyg:balustrade_purpur_stone_bridge",
+
     "macawsbridgesbyg:red_rock_bricks_bridge",
+
     "macawsbridgesbyg:red_rock_bricks_bridge_pier",
+
     "macawsbridgesbyg:red_rock_bricks_bridge_stair",
+
+    "macawsbridgesbyg:balustrade_red_rock_bricks_bridge",
+
     "macawsbridgesbyg:scoria_stone_bricks_bridge",
+
     "macawsbridgesbyg:scoria_stone_bricks_bridge_pier",
+
     "macawsbridgesbyg:scoria_stone_bricks_bridge_stair",
+
+    "macawsbridgesbyg:balustrade_scoria_stone_bricks_bridge",
+
     "macawsbridgesbyg:soapstone_bricks_bridge",
+
     "macawsbridgesbyg:soapstone_bricks_bridge_pier",
-    "macawsbridgesbyg:soapstone_bricks_bridge_stair"
+
+    "macawsbridgesbyg:soapstone_bricks_bridge_stair",
+
+    "macawsbridgesbyg:balustrade_soapstone_bricks_bridge"
+
   ]
 }

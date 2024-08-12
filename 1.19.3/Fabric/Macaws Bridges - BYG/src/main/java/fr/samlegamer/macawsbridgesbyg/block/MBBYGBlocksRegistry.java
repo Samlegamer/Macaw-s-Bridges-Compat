@@ -1,10 +1,12 @@
 package fr.samlegamer.macawsbridgesbyg.block;
 
-import net.kikoz.mcwbridges.objects.Bridge_Block_Rope;
 import net.kikoz.mcwbridges.objects.Bridge_Stairs;
-import net.kikoz.mcwbridges.objects.Bridge_Support;
 import net.kikoz.mcwbridges.objects.Log_Bridge;
 import net.kikoz.mcwbridges.objects.Rail_Bridge;
+import net.kikoz.mcwbridges.util.BlockItemWithInfo;
+import net.kikoz.mcwbridges.objects.Bridge_Block;
+import net.kikoz.mcwbridges.objects.Bridge_Block_Rope;
+import net.kikoz.mcwbridges.objects.Bridge_Support;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -17,225 +19,207 @@ import net.minecraft.util.Identifier;
 
 public class MBBYGBlocksRegistry
 {
-	private static final AbstractBlock.Settings STONE_BRIDGES = AbstractBlock.Settings.of(Material.STONE).strength(3.0F, 5.0F).sounds(BlockSoundGroup.STONE).requiresTool();
+	private static final AbstractBlock.Settings WOOD = AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD);
+	private static final AbstractBlock.Settings RAILS = AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).nonOpaque().sounds(BlockSoundGroup.WOOD);
+	private static final AbstractBlock.Settings STONE = AbstractBlock.Settings.of(Material.STONE).strength(3.0F, 5.0F).sounds(BlockSoundGroup.STONE);
 
-	public static final Block cryptic_stone_bridge = new Log_Bridge(STONE_BRIDGES);
-    public static final Block cryptic_stone_bridge_pier = new Bridge_Support(STONE_BRIDGES);
-    public static final Block cryptic_stone_bridge_stair = new Bridge_Stairs(STONE_BRIDGES);
-    public static final Block dacite_bricks_bridge = new Log_Bridge(STONE_BRIDGES);
-    public static final Block dacite_bricks_bridge_pier = new Bridge_Support(STONE_BRIDGES);
-    public static final Block dacite_bricks_bridge_stair = new Bridge_Stairs(STONE_BRIDGES);
-    public static final Block polished_travertine_bridge = new Log_Bridge(STONE_BRIDGES);
-    public static final Block polished_travertine_bridge_pier = new Bridge_Support(STONE_BRIDGES);
-    public static final Block polished_travertine_bridge_stair = new Bridge_Stairs(STONE_BRIDGES);
-    public static final Block purpur_stone_bridge = new Log_Bridge(STONE_BRIDGES);
-    public static final Block purpur_stone_bridge_pier = new Bridge_Support(STONE_BRIDGES);
-    public static final Block purpur_stone_bridge_stair = new Bridge_Stairs(STONE_BRIDGES);
-    public static final Block red_rock_bricks_bridge = new Log_Bridge(STONE_BRIDGES);
-    public static final Block red_rock_bricks_bridge_pier = new Bridge_Support(STONE_BRIDGES);
-    public static final Block red_rock_bricks_bridge_stair = new Bridge_Stairs(STONE_BRIDGES);
-    public static final Block scoria_stone_bricks_bridge = new Log_Bridge(STONE_BRIDGES);
-    public static final Block scoria_stone_bricks_bridge_pier = new Bridge_Support(STONE_BRIDGES);
-    public static final Block scoria_stone_bricks_bridge_stair = new Bridge_Stairs(STONE_BRIDGES);
-    public static final Block soapstone_bricks_bridge = new Log_Bridge(STONE_BRIDGES);
-    public static final Block soapstone_bricks_bridge_pier = new Bridge_Support(STONE_BRIDGES);
-    public static final Block soapstone_bricks_bridge_stair = new Bridge_Stairs(STONE_BRIDGES);
+	public static final Block aspen_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_aspen_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block aspen_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block aspen_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block aspen_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block aspen_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block baobab_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_baobab_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block baobab_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block baobab_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block baobab_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block baobab_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block blue_enchanted_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_blue_enchanted_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block blue_enchanted_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block blue_enchanted_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block blue_enchanted_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block blue_enchanted_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block cherry_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_cherry_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block cherry_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block cherry_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block cherry_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block cherry_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block cika_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_cika_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block cika_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block cika_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block cika_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block cika_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block cypress_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_cypress_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block cypress_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block cypress_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block cypress_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block cypress_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block ebony_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_ebony_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block ebony_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block ebony_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block ebony_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block ebony_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block ether_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_ether_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block ether_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block ether_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block ether_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block ether_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block fir_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_fir_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block fir_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block fir_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block fir_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block fir_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block green_enchanted_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_green_enchanted_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block green_enchanted_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block green_enchanted_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block green_enchanted_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block green_enchanted_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block holly_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_holly_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block holly_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block holly_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block holly_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block holly_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block jacaranda_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_jacaranda_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block jacaranda_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block jacaranda_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block jacaranda_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block jacaranda_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block lament_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_lament_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block lament_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block lament_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block lament_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block lament_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block mahogany_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_mahogany_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block mahogany_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block mahogany_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block mahogany_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block mahogany_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block white_mangrove_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_white_mangrove_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block white_mangrove_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block white_mangrove_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block white_mangrove_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block white_mangrove_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block maple_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_maple_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block maple_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block maple_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block maple_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block maple_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block nightshade_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_nightshade_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block nightshade_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block nightshade_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block nightshade_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block nightshade_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block palm_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_palm_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block palm_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block palm_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block palm_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block palm_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block pine_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_pine_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block pine_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block pine_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block pine_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block pine_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block rainbow_eucalyptus_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_rainbow_eucalyptus_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block rainbow_eucalyptus_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block rainbow_eucalyptus_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block rainbow_eucalyptus_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block rainbow_eucalyptus_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block redwood_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_redwood_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block redwood_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block redwood_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block redwood_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block redwood_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block skyris_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_skyris_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block skyris_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block skyris_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block skyris_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block skyris_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block willow_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_willow_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block willow_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block willow_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block willow_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block willow_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block witch_hazel_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_witch_hazel_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block witch_hazel_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block witch_hazel_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block witch_hazel_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block witch_hazel_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block zelkova_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_zelkova_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block zelkova_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block zelkova_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block zelkova_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block zelkova_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block bulbis_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_bulbis_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block bulbis_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block bulbis_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block bulbis_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block bulbis_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block imparius_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_imparius_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block imparius_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block imparius_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block imparius_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block imparius_rail_bridge = new Rail_Bridge(RAILS);
+	public static final Block sythian_log_bridge_middle = new Log_Bridge(WOOD);
+	public static final Block rope_sythian_bridge = new Bridge_Block_Rope(WOOD);
+	public static final Block sythian_bridge_pier = new Bridge_Support(WOOD);
+	public static final Block sythian_log_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block sythian_rope_bridge_stair = new Bridge_Stairs(WOOD);
+	public static final Block sythian_rail_bridge = new Rail_Bridge(RAILS);
 
-    public static final Block aspen_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_aspen_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block aspen_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block aspen_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block aspen_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block aspen_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block baobab_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_baobab_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block baobab_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block baobab_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block baobab_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block baobab_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block blue_enchanted_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_blue_enchanted_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block blue_enchanted_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block blue_enchanted_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block blue_enchanted_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block blue_enchanted_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block cherry_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_cherry_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block cherry_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block cherry_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block cherry_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block cherry_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block cika_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_cika_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block cika_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block cika_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block cika_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block cika_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block cypress_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_cypress_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block cypress_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block cypress_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block cypress_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block cypress_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block ebony_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_ebony_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block ebony_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block ebony_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block ebony_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block ebony_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block ether_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_ether_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block ether_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block ether_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block ether_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block ether_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block fir_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_fir_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block fir_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block fir_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block fir_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block fir_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block green_enchanted_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_green_enchanted_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block green_enchanted_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block green_enchanted_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block green_enchanted_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block green_enchanted_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block holly_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_holly_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block holly_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block holly_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block holly_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block holly_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block jacaranda_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_jacaranda_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block jacaranda_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block jacaranda_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block jacaranda_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block jacaranda_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block lament_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_lament_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block lament_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block lament_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block lament_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block lament_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	
-	public static final Block mahogany_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_mahogany_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block mahogany_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block mahogany_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block mahogany_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block mahogany_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block white_mangrove_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_white_mangrove_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block white_mangrove_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block white_mangrove_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block white_mangrove_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block white_mangrove_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block maple_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_maple_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block maple_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block maple_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block maple_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block maple_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block nightshade_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_nightshade_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block nightshade_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block nightshade_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block nightshade_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block nightshade_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block palm_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_palm_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block palm_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block palm_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block palm_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block palm_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block pine_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_pine_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block pine_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block pine_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block pine_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block pine_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block rainbow_eucalyptus_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_rainbow_eucalyptus_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rainbow_eucalyptus_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rainbow_eucalyptus_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rainbow_eucalyptus_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rainbow_eucalyptus_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block redwood_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_redwood_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block redwood_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block redwood_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block redwood_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block redwood_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block skyris_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_skyris_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block skyris_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block skyris_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block skyris_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block skyris_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block willow_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_willow_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block willow_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block willow_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block willow_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block willow_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block witch_hazel_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_witch_hazel_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block witch_hazel_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block witch_hazel_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block witch_hazel_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block witch_hazel_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block zelkova_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_zelkova_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block zelkova_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block zelkova_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block zelkova_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block zelkova_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block bulbis_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_bulbis_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block bulbis_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block bulbis_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block bulbis_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block bulbis_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block imparius_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_imparius_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block imparius_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block imparius_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block imparius_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block imparius_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-
-	public static final Block sythian_log_bridge_middle = new Log_Bridge(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block rope_sythian_bridge = new Bridge_Block_Rope(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block sythian_bridge_pier = new Bridge_Support(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block sythian_log_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block sythian_rope_bridge_stair = new Bridge_Stairs(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
-	public static final Block sythian_rail_bridge = new Rail_Bridge(AbstractBlock.Settings.of(Material.WOOD).nonOpaque().strength(0.5F, 2.5F).sounds(BlockSoundGroup.WOOD));
+	public static final Block cryptic_stone_bridge = new Bridge_Block(STONE);
+	public static final Block cryptic_stone_bridge_pier = new Bridge_Support(STONE);
+	public static final Block cryptic_stone_bridge_stair = new Bridge_Stairs(STONE);
+	public static final Block balustrade_cryptic_stone_bridge = new Bridge_Block(STONE);
+	public static final Block dacite_bricks_bridge = new Bridge_Block(STONE);
+	public static final Block dacite_bricks_bridge_pier = new Bridge_Support(STONE);
+	public static final Block dacite_bricks_bridge_stair = new Bridge_Stairs(STONE);
+	public static final Block balustrade_dacite_bricks_bridge = new Bridge_Block(STONE);
+	public static final Block polished_travertine_bridge = new Bridge_Block(STONE);
+	public static final Block polished_travertine_bridge_pier = new Bridge_Support(STONE);
+	public static final Block polished_travertine_bridge_stair = new Bridge_Stairs(STONE);
+	public static final Block balustrade_polished_travertine_bridge = new Bridge_Block(STONE);
+	public static final Block purpur_stone_bridge = new Bridge_Block(STONE);
+	public static final Block purpur_stone_bridge_pier = new Bridge_Support(STONE);
+	public static final Block purpur_stone_bridge_stair = new Bridge_Stairs(STONE);
+	public static final Block balustrade_purpur_stone_bridge = new Bridge_Block(STONE);
+	public static final Block red_rock_bricks_bridge = new Bridge_Block(STONE);
+	public static final Block red_rock_bricks_bridge_pier = new Bridge_Support(STONE);
+	public static final Block red_rock_bricks_bridge_stair = new Bridge_Stairs(STONE);
+	public static final Block balustrade_red_rock_bricks_bridge = new Bridge_Block(STONE);
+	public static final Block scoria_stone_bricks_bridge = new Bridge_Block(STONE);
+	public static final Block scoria_stone_bricks_bridge_pier = new Bridge_Support(STONE);
+	public static final Block scoria_stone_bricks_bridge_stair = new Bridge_Stairs(STONE);
+	public static final Block balustrade_scoria_stone_bricks_bridge = new Bridge_Block(STONE);
+	public static final Block soapstone_bricks_bridge = new Bridge_Block(STONE);
+	public static final Block soapstone_bricks_bridge_pier = new Bridge_Support(STONE);
+	public static final Block soapstone_bricks_bridge_stair = new Bridge_Stairs(STONE);
+	public static final Block balustrade_soapstone_bricks_bridge = new Bridge_Block(STONE);
 
 	public static void registry()
 	{
@@ -407,27 +391,35 @@ public class MBBYGBlocksRegistry
 		add("sythian_log_bridge_stair", sythian_log_bridge_stair);
 		add("sythian_rope_bridge_stair", sythian_rope_bridge_stair);
 		add("sythian_rail_bridge", sythian_rail_bridge);
+		
 		add("cryptic_stone_bridge", cryptic_stone_bridge);
 		add("cryptic_stone_bridge_pier", cryptic_stone_bridge_pier);
 		add("cryptic_stone_bridge_stair", cryptic_stone_bridge_stair);
+		add("balustrade_cryptic_stone_bridge", balustrade_cryptic_stone_bridge);
 		add("dacite_bricks_bridge", dacite_bricks_bridge);
 		add("dacite_bricks_bridge_pier", dacite_bricks_bridge_pier);
 		add("dacite_bricks_bridge_stair", dacite_bricks_bridge_stair);
+		add("balustrade_dacite_bricks_bridge", balustrade_dacite_bricks_bridge);
 		add("polished_travertine_bridge", polished_travertine_bridge);
 		add("polished_travertine_bridge_pier", polished_travertine_bridge_pier);
 		add("polished_travertine_bridge_stair", polished_travertine_bridge_stair);
+		add("balustrade_polished_travertine_bridge", balustrade_polished_travertine_bridge);
 		add("purpur_stone_bridge", purpur_stone_bridge);
 		add("purpur_stone_bridge_pier", purpur_stone_bridge_pier);
 		add("purpur_stone_bridge_stair", purpur_stone_bridge_stair);
+		add("balustrade_purpur_stone_bridge", balustrade_purpur_stone_bridge);
 		add("red_rock_bricks_bridge", red_rock_bricks_bridge);
 		add("red_rock_bricks_bridge_pier", red_rock_bricks_bridge_pier);
 		add("red_rock_bricks_bridge_stair", red_rock_bricks_bridge_stair);
+		add("balustrade_red_rock_bricks_bridge", balustrade_red_rock_bricks_bridge);
 		add("scoria_stone_bricks_bridge", scoria_stone_bricks_bridge);
 		add("scoria_stone_bricks_bridge_pier", scoria_stone_bricks_bridge_pier);
 		add("scoria_stone_bricks_bridge_stair", scoria_stone_bricks_bridge_stair);
+		add("balustrade_scoria_stone_bricks_bridge", balustrade_scoria_stone_bricks_bridge);
 		add("soapstone_bricks_bridge", soapstone_bricks_bridge);
 		add("soapstone_bricks_bridge_pier", soapstone_bricks_bridge_pier);
 		add("soapstone_bricks_bridge_stair", soapstone_bricks_bridge_stair);
+		add("balustrade_soapstone_bricks_bridge", balustrade_soapstone_bricks_bridge);
 	}
 	
 	private static void add(String name, Block b)
@@ -436,8 +428,14 @@ public class MBBYGBlocksRegistry
     	blockItem(b, name);
 	}
     
-    private static void blockItem(Block b, String n)
+    private static void blockItem(Block b, String name)
     {
-    	Registry.register(Registries.ITEM, new Identifier("macawsbridgesbyg", n), new BlockItem(b, new Item.Settings()));
+    	if(name.contains("log_bridge_middle") || name.startsWith("rope_") || name.endsWith("_bridge"))
+	    {
+	        Registry.register(Registries.ITEM, new Identifier("macawsbridgesbyg", name), new BlockItemWithInfo(b, new Item.Settings()));
+	    }
+	    else {
+	        Registry.register(Registries.ITEM, new Identifier("macawsbridgesbyg", name), new BlockItem(b, new Item.Settings()));
+	    }
     }
 }

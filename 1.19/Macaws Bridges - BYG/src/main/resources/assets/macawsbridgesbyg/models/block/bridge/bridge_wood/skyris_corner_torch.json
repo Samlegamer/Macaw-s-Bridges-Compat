@@ -1,9 +1,0 @@
-{
-	"parent": "mcwbridges:block/bridge/bridge_wood/parent/corner_torch",
-	"textures": {
-		"5": "byg:block/skyris/planks",
-		"0": "byg:block/skyris/log",
-		"4": "mcwbridges:block/torch",
-		"particle": "byg:block/skyris/log"
-	}
-}

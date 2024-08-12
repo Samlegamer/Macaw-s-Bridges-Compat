@@ -1,1 +1,3 @@
-{"parent": "macawsbridgesbyg:block/bridge/rope/bulbis_inventory"}
+{
+    "parent": "macawsbridgesbyg:block/bridge/rope/bulbis_middle"
+}

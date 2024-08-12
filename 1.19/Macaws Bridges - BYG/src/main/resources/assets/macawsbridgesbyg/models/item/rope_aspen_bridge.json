@@ -1,1 +1,3 @@
-{"parent": "macawsbridgesbyg:block/bridge/rope/aspen_inventory"}
+{
+    "parent": "macawsbridgesbyg:block/bridge/rope/aspen_middle"
+}

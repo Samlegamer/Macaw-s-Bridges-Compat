@@ -1,53 +1,31 @@
 {
     "variants": {                                                                        
-        "facing=north,north=false,south=false,torch=false":  { "model": "macawsbridgesbyg:block/stair/wood/pine_double", "y": 270,"uvlock": true},
-		"facing=north,north=false,south=true,torch=false":  { "model": "macawsbridgesbyg:block/stair/wood/pine_right", "y": 270,"uvlock": true},
-		"facing=north,north=true,south=false,torch=false":  { "model": "macawsbridgesbyg:block/stair/wood/pine_left", "y": 270,"uvlock": true},
+        "facing=north,connection=base":  { "model": "macawsbridgesbyg:block/stair/wood/pine_double", "y": 270},
+		"facing=north,connection=right":  { "model": "macawsbridgesbyg:block/stair/wood/pine_right", "y": 270},
+		"facing=north,connection=left":  { "model": "macawsbridgesbyg:block/stair/wood/pine_left", "y": 270},
+		"facing=north,connection=double":  { "model": "macawsbridgesbyg:block/stair/wood/pine_base", "y": 270},
 
-        "facing=west,west=false,east=false,torch=false":  { "model": "macawsbridgesbyg:block/stair/wood/pine_double", "y": 180,"uvlock": true},
-		"facing=west,west=false,east=true,torch=false":  { "model": "macawsbridgesbyg:block/stair/wood/pine_right", "y": 180,"uvlock": true},
-		"facing=west,west=true,east=false,torch=false":  { "model": "macawsbridgesbyg:block/stair/wood/pine_left", "y": 180,"uvlock": true},
+        "facing=west,connection=base":  { "model": "macawsbridgesbyg:block/stair/wood/pine_double", "y": 180},
+		"facing=west,connection=right":  { "model": "macawsbridgesbyg:block/stair/wood/pine_right", "y": 180},
+		"facing=west,connection=left":  { "model": "macawsbridgesbyg:block/stair/wood/pine_left", "y": 180},
+		"facing=west,connection=double":  { "model": "macawsbridgesbyg:block/stair/wood/pine_base", "y": 180},
 
-        "facing=south,south=false,north=false,torch=false":  { "model": "macawsbridgesbyg:block/stair/wood/pine_double", "y": 90,"uvlock": true},
-		"facing=south,south=false,north=true,torch=false":  { "model": "macawsbridgesbyg:block/stair/wood/pine_right", "y": 90,"uvlock": true},
-		"facing=south,south=true,north=false,torch=false":  { "model": "macawsbridgesbyg:block/stair/wood/pine_left", "y": 90,"uvlock": true},
+        "facing=south,connection=base":  { "model": "macawsbridgesbyg:block/stair/wood/pine_double", "y": 90},
+		"facing=south,connection=right":  { "model": "macawsbridgesbyg:block/stair/wood/pine_right", "y": 90},
+		"facing=south,connection=left":  { "model": "macawsbridgesbyg:block/stair/wood/pine_left", "y": 90},
+		"facing=south,connection=double":  { "model": "macawsbridgesbyg:block/stair/wood/pine_base", "y": 90},
 
-        "facing=east,east=false,west=false,torch=false":  { "model": "macawsbridgesbyg:block/stair/wood/pine_double","uvlock": true},
-		"facing=east,east=false,west=true,torch=false":  { "model": "macawsbridgesbyg:block/stair/wood/pine_right","uvlock": true},
-		"facing=east,east=true,west=false,torch=false":  { "model": "macawsbridgesbyg:block/stair/wood/pine_left","uvlock": true},	
-
-        "facing=north,north=true,south=true,torch=false":  { "model": "macawsbridgesbyg:block/stair/wood/pine_base", "y": 270,"uvlock": true},
-		"facing=east,east=true,west=true,torch=false":  { "model": "macawsbridgesbyg:block/stair/wood/pine_base","uvlock": true},
-		"facing=south,north=true,south=true,torch=false":  { "model": "macawsbridgesbyg:block/stair/wood/pine_base", "y": 90,"uvlock": true},	
-		"facing=west,east=true,west=true,torch=false":  { "model": "macawsbridgesbyg:block/stair/wood/pine_base", "y": 180,"uvlock": true},
-		
-		
-		
-		
-		
-		"facing=north,north=false,south=false,torch=true":  { "model": "macawsbridgesbyg:block/stair/wood/pine_double_torch", "y": 270,"uvlock": true},
-		"facing=north,north=false,south=true,torch=true":  { "model": "macawsbridgesbyg:block/stair/wood/pine_right_torch", "y": 270,"uvlock": true},
-		"facing=north,north=true,south=false,torch=true":  { "model": "macawsbridgesbyg:block/stair/wood/pine_left_torch", "y": 270,"uvlock": true},
-
-        "facing=west,west=false,east=false,torch=true":  { "model": "macawsbridgesbyg:block/stair/wood/pine_double_torch", "y": 180,"uvlock": true},
-		"facing=west,west=false,east=true,torch=true":  { "model": "macawsbridgesbyg:block/stair/wood/pine_right_torch", "y": 180,"uvlock": true},
-		"facing=west,west=true,east=false,torch=true":  { "model": "macawsbridgesbyg:block/stair/wood/pine_left_torch", "y": 180,"uvlock": true},
-
-        "facing=south,south=false,north=false,torch=true":  { "model": "macawsbridgesbyg:block/stair/wood/pine_double_torch", "y": 90,"uvlock": true},
-		"facing=south,south=false,north=true,torch=true":  { "model": "macawsbridgesbyg:block/stair/wood/pine_right_torch", "y": 90,"uvlock": true},
-		"facing=south,south=true,north=false,torch=true":  { "model": "macawsbridgesbyg:block/stair/wood/pine_left_torch", "y": 90,"uvlock": true},
-
-        "facing=east,east=false,west=false,torch=true":  { "model": "macawsbridgesbyg:block/stair/wood/pine_double_torch","uvlock": true},
-		"facing=east,east=false,west=true,torch=true":  { "model": "macawsbridgesbyg:block/stair/wood/pine_right_torch","uvlock": true},
-		"facing=east,east=true,west=false,torch=true":  { "model": "macawsbridgesbyg:block/stair/wood/pine_left_torch","uvlock": true},	
-
-        "facing=north,north=true,south=true,torch=true":  { "model": "macawsbridgesbyg:block/stair/wood/pine_base_torch", "y": 270,"uvlock": true},
-		"facing=east,east=true,west=true,torch=true":  { "model": "macawsbridgesbyg:block/stair/wood/pine_base_torch","uvlock": true},
-		"facing=south,north=true,south=true,torch=true":  { "model": "macawsbridgesbyg:block/stair/wood/pine_base_torch", "y": 90,"uvlock": true},	
-		"facing=west,east=true,west=true,torch=true":  { "model": "macawsbridgesbyg:block/stair/wood/pine_base_torch", "y": 180,"uvlock": true}
-
-
-
+        "facing=east,connection=base":  { "model": "macawsbridgesbyg:block/stair/wood/pine_double"},
+		"facing=east,connection=right":  { "model": "macawsbridgesbyg:block/stair/wood/pine_right"},
+		"facing=east,connection=left":  { "model": "macawsbridgesbyg:block/stair/wood/pine_left"},	
+		"facing=east,connection=double":  { "model": "macawsbridgesbyg:block/stair/wood/pine_base"}
 
     }
 }
+
+
+
+
+
+
+

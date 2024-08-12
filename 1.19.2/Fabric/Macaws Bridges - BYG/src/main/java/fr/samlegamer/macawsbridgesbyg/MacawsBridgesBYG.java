@@ -9,7 +9,7 @@ import net.minecraft.util.Identifier;
 
 public class MacawsBridgesBYG implements ModInitializer
 {
-	public static final ItemGroup TAB = FabricItemGroupBuilder.build(new Identifier("macawsbridgesbyg_tab"), () -> new ItemStack(MBBYGBlocksRegistry.aspen_log_bridge_middle));
+	public static final ItemGroup TAB = FabricItemGroupBuilder.build(new Identifier("macawsbridgesbyg", "macawsbridgesbyg_tab"), () -> new ItemStack(MBBYGBlocksRegistry.aspen_log_bridge_middle));
 	
 	@Override
 	public void onInitialize()

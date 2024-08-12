@@ -1,6 +1,0 @@
-{"parent": "mcwbridges:block/bridge/rope/parent/inventory",
-"textures":{"0": "mcwbridges:block/lead_knot_vert",
-"2": "atmospheric:block/rosewood_planks",
-"4": "atmospheric:block/rosewood_log",
-"particle": "atmospheric:block/rosewood_log",
-"1_4": "mcwbridges:block/lead_knot"}}

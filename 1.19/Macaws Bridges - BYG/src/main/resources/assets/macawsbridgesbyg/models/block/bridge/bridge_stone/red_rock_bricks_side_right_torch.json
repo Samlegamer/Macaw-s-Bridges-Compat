@@ -1,9 +1,0 @@
-{
-	"parent": "mcwbridges:block/bridge/bridge_stone/parent/side_right_torch",
-	"textures": {
-		"5": "byg:block/red_rock",
-		"4": "mcwbridges:block/torch",
-		"2": "byg:block/red_rock_bricks",
-		"particle": "byg:block/red_rock_bricks"
-	}
-}

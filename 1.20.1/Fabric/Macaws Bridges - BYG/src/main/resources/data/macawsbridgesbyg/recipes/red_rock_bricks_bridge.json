@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "stone_bridges",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomeswevegone:red_rock_brick_wall"
+        },
+        
+        "W":
+        {
+            "item": "biomeswevegone:red_rock_brick_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:red_rock_bricks_bridge",
+        "count": 4
+    }
+}

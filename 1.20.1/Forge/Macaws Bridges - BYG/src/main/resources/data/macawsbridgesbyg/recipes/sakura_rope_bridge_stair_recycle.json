@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+	"group": "recyclable_bridges",
+		
+    "ingredients": [
+        {
+            "item": "macawsbridgesbyg:sakura_rope_bridge_stair"
+        }
+    ],
+    "result": {
+        "item": "macawsbridgesbyg:rope_sakura_bridge",
+        "count": 1
+    }
+}

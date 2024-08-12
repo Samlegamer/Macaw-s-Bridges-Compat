@@ -1,3 +1,0 @@
-{"parent": "mcwbridges:block/bridge/bridge_wood/parent/base_torch",
-"textures": {"1": "upgrade_aquatic:block/river_log",
-"3": "minecraft:block/torch","particle": "upgrade_aquatic:block/river_planks"}}

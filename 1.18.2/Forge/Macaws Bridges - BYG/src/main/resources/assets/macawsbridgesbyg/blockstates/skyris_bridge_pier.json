@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "macawsbridgesbyg:block/support_pier/wooden/skyris_pillar_single"
+      "model": "macawsbridgesbyg:block/support_pier/skyris_pillar_single"
     }
   }
 }

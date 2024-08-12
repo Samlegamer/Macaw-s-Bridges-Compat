@@ -1,5 +1,0 @@
-{"parent":"mcwbridges:block/bridge/rail/parent/corner",
-"textures":{"0": "atmospheric:block/kousa_log",
-"2": "atmospheric:block/kousa_planks",
-"3": "atmospheric:block/kousa_log_top",
-"particle": "atmospheric:block/kousa_planks"}}

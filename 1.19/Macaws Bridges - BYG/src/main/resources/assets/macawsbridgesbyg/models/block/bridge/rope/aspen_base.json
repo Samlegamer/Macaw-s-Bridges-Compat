@@ -1,3 +1,8 @@
-{"parent":"mcwbridges:block/bridge/rope/parent/base",
-"textures":{"2":"byg:block/aspen/planks",
-"particle":"byg:block/aspen/planks"}}
+{
+	"parent": "mcwbridges:block/bridge/rope/parent/base",
+	"textures": {
+		"1": "byg:block/aspen/planks",
+		"2": "byg:block/aspen/log",
+		"particle": "byg:block/aspen/planks"
+	}
+}

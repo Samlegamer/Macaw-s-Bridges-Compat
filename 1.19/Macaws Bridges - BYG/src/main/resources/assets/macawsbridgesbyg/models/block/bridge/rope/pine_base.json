@@ -1,3 +1,8 @@
-{"parent":"mcwbridges:block/bridge/rope/parent/base",
-"textures":{"2":"byg:block/pine/planks",
-"particle":"byg:block/pine/planks"}}
+{
+	"parent": "mcwbridges:block/bridge/rope/parent/base",
+	"textures": {
+		"1": "byg:block/pine/planks",
+		"2": "byg:block/pine/log",
+		"particle": "byg:block/pine/planks"
+	}
+}

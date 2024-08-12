@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "macawsbridgesbyg:block/support_pier/wooden/sythian_pillar_single"
+      "model": "macawsbridgesbyg:block/support_pier/sythian_pillar_single"
     }
   }
 }

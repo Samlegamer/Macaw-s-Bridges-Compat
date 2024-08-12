@@ -1,4 +1,0 @@
-{"parent": "mcwbridges:block/bridge/bridge_stone/parent/inventory",
-"textures":{"2": "autumnity:block/snail_shell_bricks",
-"particle": "autumnity:block/snail_shell_tiles",
-"2_2": "autumnity:block/snail_shell_tiles"}}

@@ -1,9 +1,0 @@
-{
-	"parent": "mcwbridges:block/bridge/bridge_wood/parent/middle_end",
-	"textures": {
-		"5": "premium_wood:block/silverbell/silverbell_planks",
-		"0": "premium_wood:block/silverbell/silverbell_log",
-		"1": "premium_wood:block/silverbell/silverbell_planks",
-		"particle": "premium_wood:block/silverbell/silverbell_log"
-	}
-}

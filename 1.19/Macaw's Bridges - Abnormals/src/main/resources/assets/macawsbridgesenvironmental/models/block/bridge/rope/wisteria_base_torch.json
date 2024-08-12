@@ -1,4 +1,0 @@
-{"parent":"mcwbridges:block/bridge/rope/parent/base_torch",
-"textures":{"1": "minecraft:block/torch",
-"3": "environmental:block/wisteria_log",
-"particle": "environmental:block/wisteria_planks"}}

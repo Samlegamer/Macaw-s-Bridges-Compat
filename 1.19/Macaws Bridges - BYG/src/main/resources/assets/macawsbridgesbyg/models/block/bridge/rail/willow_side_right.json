@@ -1,5 +1,0 @@
-{"parent":"mcwbridges:block/bridge/rail/parent/side_right",
-"textures":{"0": "byg:block/willow/log",
-"2":"byg:block/willow/planks",
-"3":"byg:block/willow/log_top",
-"particle":"byg:block/willow/planks"}}

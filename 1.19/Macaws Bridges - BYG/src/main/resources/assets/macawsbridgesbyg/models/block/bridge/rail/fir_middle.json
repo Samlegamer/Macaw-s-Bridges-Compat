@@ -1,5 +1,8 @@
-{"parent":"mcwbridges:block/bridge/rail/parent/middle",
-"textures":{"0": "byg:block/fir/log",
-"2": "byg:block/fir/planks",
-"3": "byg:block/fir/log_top",
-"particle": "byg:block/fir/planks"}}
+	{
+	"parent": "mcwbridges:block/bridge/bridge_wood/parent/middle",
+	"textures": {
+		"5": "byg:block/fir/planks",
+		"0": "byg:block/fir/log",
+		"particle": "byg:block/fir/log"
+	}
+}

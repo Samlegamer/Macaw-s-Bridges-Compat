@@ -1,9 +1,0 @@
-{
-	"parent": "mcwbridges:block/bridge/bridge_wood/parent/side_right_torch",
-	"textures": {
-		"5": "blue_skies:block/wood/crystallized_planks",
-		"0": "blue_skies:block/wood/crystallized_log_side",
-		"4": "mcwbridges:block/torch",
-		"particle": "blue_skies:block/wood/crystallized_log_side"
-	}
-}

@@ -1,120 +1,66 @@
 {
-  "multipart": [
-
-    {   "when": { "OR": [
-        { "facing": "north|south"}
-        ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_base", "y": 90}
-    },
-	{   "when": { "OR": [
-        { "facing": "east|west"}
-        ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_base", "y": 0}
-    },
-	
-        {   "when": { "torch": "true" },
-            "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_base_torch" }
-        },
-	
-	
-	{
-      "when": { "AND": [  {"facing": "east|west","toggle": "true","north": "true","east": "false","south": "false","west": "true"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_right", "y": 0}
-    },
-	{
-      "when": { "AND": [  {"facing": "east|west","toggle": "true","north": "false","east": "false","south": "true","west": "true"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_left", "y": 180}
-    },
-	{
-      "when": { "AND": [  {"facing": "east|west","toggle": "true","north": "false","east": "true","south": "true","west": "false"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_right", "y": 180}
-    },
-	{
-      "when": { "AND": [  {"facing": "east|west","toggle": "true","north": "true","east": "true","south": "false","west": "false"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_left", "y": 0}
-    },
-
-	{
-      "when": { "AND": [  {"facing": "north|south","toggle": "true","north": "true","east": "false","south": "false","west": "true"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_left", "y": 270}
-    },
-	{
-      "when": { "AND": [  {"facing": "north|south","toggle": "true","north": "false","east": "false","south": "true","west": "true"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_right", "y": 270}
-    },
-	{
-      "when": { "AND": [  {"facing": "north|south","toggle": "true","north": "false","east": "true","south": "true","west": "false"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_left", "y": 90}
-    },
-	{
-      "when": { "AND": [  {"facing": "north|south","toggle": "true","north": "true","east": "true","south": "false","west": "false"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_right", "y": 90}
-    },
-    {
-      "when": { "AND": [  {"toggle": "false","north": "true","west": "true","east": "false","south": "false"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_corner_clear", "y": 180}
-    },
-	{
-      "when": { "AND": [  {"toggle": "false","north": "true","east": "true","west": "false","south": "false"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_corner_clear", "y": 270}
-    },
-	{
-      "when": { "AND": [  {"toggle": "false","south": "true","east": "true","west": "false","north": "false"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_corner_clear"}
-    },
-	{
-      "when": { "AND": [  {"toggle": "false","south": "true","west": "true","east": "false","north": "false"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_corner_clear", "y": 90}
-    },
+    "variants": {                     
+		"facing=north,connection=base":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_base"},
+		"facing=north,connection=base_toggled":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_base"},
 		
-	{
-      "when": { "AND": [  {"toggle": "false","north": "true", "east": "true","south": "false", "west": "true"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side"} 
-    },		
-	{
-      "when": { "AND": [  {"toggle": "false","north": "false", "east": "true","south": "true", "west": "true"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side", "y": 180} 
-    },	
-	{
-      "when": { "AND": [  {"toggle": "false","north": "true", "east": "true","south": "true", "west": "false"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side", "y": 90} 
-    },	
-	{
-      "when": { "AND": [  {"toggle": "false","north": "true", "east": "false","south": "true", "west": "true"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side", "y": 270} 
-    },	
+        "facing=north,connection=middle_ns":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle", "y": 90},
+		"facing=north,connection=middle_ew":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle"},
+
+		"facing=north,connection=middle_end_s":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle_end", "y": 180},
+		"facing=north,connection=middle_end_n":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle_end"},
+		"facing=north,connection=middle_end_w":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle_end", "y": 270},
+		"facing=north,connection=middle_end_e":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle_end", "y": 90},
+
+		"facing=north,connection=corner_nw":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_corner_clear", "y": 180},
+		"facing=north,connection=corner_ne":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_corner_clear_r", "y": 270},
+		"facing=north,connection=corner_se":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_corner_clear"},
+		"facing=north,connection=corner_sw":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_corner_clear_r", "y": 90},	
 		
-    {
-      "when": { "AND": [  {"north": "false", "south": "true", "west": "false", "east": "false"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle_end", "y": 180}
-    },
-    {
-      "when": { "AND": [  {"south": "false","north": "true", "west": "false", "east": "false"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle_end"}
-    },
-    {
-      "when": { "AND": [  {"east": "false","west": "true", "north": "false", "south": "false"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle_end", "y": 270}
-    },
-  	{
-      "when": { "AND": [  {"west": "false","east": "true", "north": "false", "south": "false"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle_end", "y": 90}
-    },
-	{
-      "when": { "AND": [  {"east": "true", "west": "true", "north": "false", "south": "false"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle", "y": 90}
-    },
-	{
-      "when": { "AND": [  {"south": "true", "north": "true", "east": "false", "west": "false"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle"}
-    },
-	{
-      "when": { "AND": [  {"facing": "north|south","south": "false", "east": "false", "north": "false", "west": "false"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle", "y": 90}
-    },
-	{
-      "when": { "AND": [  {"facing": "east|west","south": "false", "east": "false", "north": "false", "west": "false"} ]},
-      "apply": { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle"}
+		"facing=north,connection=side_s":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_r"},
+		"facing=north,connection=side_n":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_r", "y": 180},
+		"facing=north,connection=side_w":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side", "y": 90},
+		"facing=north,connection=side_e":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side", "y": 270},
+		
+		"facing=north,connection=end_n_right":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_right"},
+		"facing=north,connection=end_n_left":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_left", "y": 180},
+		"facing=north,connection=end_e_right":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_right", "y": 180},
+		"facing=north,connection=end_e_left":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_left"},
+		
+		"facing=north,connection=end_s_left":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_left_r", "y": 270},
+		"facing=north,connection=end_s_right":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_right_r", "y": 270},
+		"facing=north,connection=end_w_left":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_left_r", "y": 90},
+		"facing=north,connection=end_w_right":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_right_r", "y": 90},
+		
+		
+		"facing=east,connection=base":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_base", "y": 90},
+		"facing=east,connection=base_toggled":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_base", "y": 90},
+		
+        "facing=east,connection=middle_ns":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle", "y": 90},
+		"facing=east,connection=middle_ew":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle"},
+
+		"facing=east,connection=middle_end_s":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle_end", "y": 180},
+		"facing=east,connection=middle_end_n":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle_end"},
+		"facing=east,connection=middle_end_w":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle_end", "y": 270},
+		"facing=east,connection=middle_end_e":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_middle_end", "y": 90},
+
+		"facing=east,connection=corner_nw":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_corner_clear_r", "y": 180},
+		"facing=east,connection=corner_ne":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_corner_clear", "y": 270},
+		"facing=east,connection=corner_se":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_corner_clear_r"},
+		"facing=east,connection=corner_sw":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_corner_clear", "y": 90},	
+		
+		"facing=east,connection=side_s":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side"},
+		"facing=east,connection=side_n":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side", "y": 180},
+		"facing=east,connection=side_w":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_r", "y": 90},
+		"facing=east,connection=side_e":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_r", "y": 270},
+		
+		"facing=east,connection=end_n_right":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_right_r"},
+		"facing=east,connection=end_n_left":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_left_r", "y": 180},
+		"facing=east,connection=end_e_right":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_right_r", "y": 180},
+		"facing=east,connection=end_e_left":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_left_r"},
+		
+		"facing=east,connection=end_s_left":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_left", "y": 270},
+		"facing=east,connection=end_s_right":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_right", "y": 270},
+		"facing=east,connection=end_w_left":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_left", "y": 90},
+		"facing=east,connection=end_w_right":  { "model": "macawsbridgesbyg:block/bridge/rope/bulbis_side_right", "y": 90}
     }
-  ]
 }

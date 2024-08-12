@@ -1,7 +1,0 @@
-{
-	"parent": "mcwbridges:block/support_pier/stone/parent/pillar_single",
-	"textures": {
-		"0": "byg:block/scoria_stone_bricks",
-		"particle": "byg:block/scoria_stone_bricks"
-	}
-}

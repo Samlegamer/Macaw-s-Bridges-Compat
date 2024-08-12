@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "macawsbridgesbyg",
+  "version": "1.20.1-1.0",
+
+  "name": "Macaw's Bridges - BWG",
+  "description": "Compatibility of Macaw's Bridges for Oh The Biomes We've Gone for Minecraft 1.20.1 !",
+  "authors": [
+    "Samlegamer"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/macaws-bridges-oh-the-biomes-youll-go",
+    "sources": "https://github.com/Samlegamer/Macaw-s-Bridges-Compat"
+  },
+
+  "license": "All rights reserved",
+  "icon": "assets/macawsbridgesbyg/img.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.samlegamer.macawsbridgesbyg.MacawsBridgesBYG"
+		],
+		"client": [
+			"fr.samlegamer.macawsbridgesbyg.client.MBBYGClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"terrablender": "*",
+		"biomeswevegone": "*",
+		"mcwbridges": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "macawsbridgesbyg:block/support_pier/wooden/bulbis_pillar_single"
+      "model": "macawsbridgesbyg:block/support_pier/bulbis_pillar_single"
     }
   }
 }

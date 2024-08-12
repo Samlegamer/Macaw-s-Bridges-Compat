@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
+    "group": "stone_bridges",
     
     "pattern": [
     "F F",
@@ -12,6 +13,7 @@
         {
             "item": "byg:dacite_brick_wall"
         },
+        
         "W":
         {
             "item": "byg:dacite_brick_slab"

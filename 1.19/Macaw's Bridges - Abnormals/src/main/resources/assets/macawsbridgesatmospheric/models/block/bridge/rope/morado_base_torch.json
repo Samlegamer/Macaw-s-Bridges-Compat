@@ -1,4 +1,0 @@
-{"parent":"mcwbridges:block/bridge/rope/parent/base_torch",
-"textures":{"1": "minecraft:block/torch",
-"3": "atmospheric:block/morado_log",
-"particle": "atmospheric:block/morado_planks"}}

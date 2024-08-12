@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "macawsbridgesbyg:block/support_pier/wooden/nightshade_pillar_single"
+      "model": "macawsbridgesbyg:block/support_pier/nightshade_pillar_single"
     }
   }
 }

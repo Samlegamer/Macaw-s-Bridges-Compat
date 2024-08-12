@@ -1,5 +1,8 @@
-{"parent":"mcwbridges:block/bridge/rail/parent/corner",
-"textures":{"0": "byg:block/blue_enchanted/log",
-"2": "byg:block/blue_enchanted/planks",
-"3": "byg:block/blue_enchanted/log_top",
-"particle": "byg:block/blue_enchanted/planks"}}
+	{
+	"parent": "mcwbridges:block/bridge/bridge_wood/parent/corner",
+	"textures": {
+		"5": "byg:block/blue_enchanted/planks",
+		"0": "byg:block/blue_enchanted/log",
+		"particle": "byg:block/blue_enchanted/log"
+	}
+}

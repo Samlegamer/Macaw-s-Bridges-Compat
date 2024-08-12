@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "wooden_piers",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomeswevegone:ironwood_fence"
+        },
+        
+        "W":
+        {
+            "item": "biomeswevegone:ironwood_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:ironwood_bridge_pier",
+        "count": 3
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "rope_bridges",
+    
+    "pattern": [
+    "F F",
+    "WWW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "minecraft:string"
+        },
+        
+        "W":
+        {
+            "item": "biomeswevegone:florus_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:rope_florus_bridge",
+        "count": 4
+    }
+}

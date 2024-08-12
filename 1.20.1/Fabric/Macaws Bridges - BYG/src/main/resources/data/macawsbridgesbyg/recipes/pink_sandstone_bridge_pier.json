@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "stone_piers",
+    
+    "pattern": [
+    "WFW"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomeswevegone:pink_sandstone_wall"
+        },
+        
+        "W":
+        {
+            "item": "biomeswevegone:pink_sandstone"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:pink_sandstone_bridge_pier",
+        "count": 3
+    }
+}

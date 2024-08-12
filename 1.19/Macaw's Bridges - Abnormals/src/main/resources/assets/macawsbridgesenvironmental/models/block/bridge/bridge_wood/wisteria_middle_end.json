@@ -1,4 +1,0 @@
-{"parent": "mcwbridges:block/bridge/bridge_wood/parent/middle_end",
-"textures":{"0": "environmental:block/wisteria_log",
-"1": "environmental:block/wisteria_planks",
-"particle": "environmental:block/wisteria_log"}}

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "macawsbridgesbyg",
-  "version": "1.18.2-1.6",
+  "version": "1.18.2-1.7",
 
   "name": "Macaw's Bridges - BYG",
   "description": "Compatibility of Macaw's Bridges for Oh The Biomes You'll Go for Minecraft 1.18.2 !",
@@ -10,7 +10,7 @@
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/macaws-bridges-oh-the-biomes-youll-go",
-    "sources": "https://github.com/Samlegamer/Macaw-s-Bridges-Compat/tree/1.18.2"
+    "sources": "https://github.com/Samlegamer/Macaw-s-Bridges-Compat"
   },
 
   "license": "All rights reserved",
@@ -26,10 +26,13 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=0.13.3",
+    "fabricloader": ">=0.14.6",
     "fabric": "*",
-    "minecraft": "1.18.x",
-    "java": ">=17"
+    "minecraft": "~1.18.2",
+    "java": ">=17",
+    "byg": "*",
+    "terrablender": "*",
+    "mcwbridges": "*"
   },
   "suggests": {
     "another-mod": "*"

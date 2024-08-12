@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+	"group": "recyclable_bridges",
+		
+    "ingredients": [
+        {
+            "item": "macawsbridgesbyg:polished_travertine_bridge_stair"
+        }
+    ],
+    "result": {
+        "item": "macawsbridgesbyg:polished_travertine_bridge",
+        "count": 1
+    }
+}

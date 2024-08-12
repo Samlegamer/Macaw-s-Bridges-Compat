@@ -1,5 +1,0 @@
-{"parent":"mcwbridges:block/bridge/rail/parent/inventory",
-"textures":{"0": "byg:block/baobab/log",
-"2": "byg:block/baobab/planks",
-"3": "byg:block/baobab/log_top",
-"particle": "byg:block/baobab/planks"}}

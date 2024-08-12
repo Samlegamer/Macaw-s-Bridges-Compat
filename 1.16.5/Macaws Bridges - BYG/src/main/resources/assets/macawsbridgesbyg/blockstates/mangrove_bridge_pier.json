@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "macawsbridgesbyg:block/support_pier/wooden/mangrove_pillar_single"
+      "model": "macawsbridgesbyg:block/support_pier/mangrove_pillar_single"
     }
   }
 }

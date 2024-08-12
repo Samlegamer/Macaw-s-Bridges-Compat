@@ -1,5 +1,8 @@
-{"parent": "mcwbridges:block/bridge/rail/parent/side",
-"textures":{"0": "byg:block/lament/log",
-"2": "byg:block/lament/planks",
-"3": "byg:block/lament/log_top",
-"particle": "byg:block/lament/planks"}}
+	{
+	"parent": "mcwbridges:block/bridge/bridge_wood/parent/side",
+	"textures": {
+		"5": "byg:block/lament/planks",
+		"0": "byg:block/lament/log",
+		"particle": "byg:block/lament/log"
+	}
+}

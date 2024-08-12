@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "rail_bridges",
+    
+    "pattern": [
+    "F F",
+    "FWF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "biomeswevegone:ironwood_fence"
+        },
+        
+        "W":
+        {
+            "item": "biomeswevegone:ironwood_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "macawsbridgesbyg:ironwood_rail_bridge",
+        "count": 4
+    }
+}

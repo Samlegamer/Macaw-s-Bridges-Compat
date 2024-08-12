@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "macawsbridgesbyg:block/support_pier/wooden/baobab_pillar_single"
+      "model": "macawsbridgesbyg:block/support_pier/baobab_pillar_single"
     }
   }
 }

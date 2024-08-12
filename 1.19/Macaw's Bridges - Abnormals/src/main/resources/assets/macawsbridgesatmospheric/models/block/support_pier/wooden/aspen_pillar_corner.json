@@ -1,5 +1,0 @@
-{"parent": "mcwbridges:block/support_pier/wooden/parent/pillar_corner",
-"textures":{"0": "atmospheric:block/aspen_log",
-"1": "atmospheric:block/aspen_log_top",
-"2": "atmospheric:block/aspen_planks",
-"particle": "atmospheric:block/aspen_log"}}

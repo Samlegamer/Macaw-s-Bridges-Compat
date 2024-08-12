@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+	"group": "recyclable_bridges",
+		
+    "ingredients": [
+        {
+            "item": "macawsbridgesbyg:pink_sandstone_bridge_stair"
+        }
+    ],
+    "result": {
+        "item": "macawsbridgesbyg:pink_sandstone_bridge",
+        "count": 1
+    }
+}

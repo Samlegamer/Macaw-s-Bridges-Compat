@@ -1,9 +1,0 @@
-{
-	"parent": "mcwbridges:block/bridge/bridge_wood/parent/corner_torch",
-	"textures": {
-		"5": "premium_wood:block/maple/maple_planks",
-		"0": "premium_wood:block/maple/maple_log",
-		"4": "mcwbridges:block/torch",
-		"particle": "premium_wood:block/maple/maple_log"
-	}
-}

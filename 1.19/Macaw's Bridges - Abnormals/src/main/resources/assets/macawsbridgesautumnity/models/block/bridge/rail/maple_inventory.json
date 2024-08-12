@@ -1,5 +1,0 @@
-{"parent":"mcwbridges:block/bridge/rail/parent/inventory",
-"textures":{"0": "autumnity:block/maple_log",
-"2": "autumnity:block/maple_planks",
-"3": "autumnity:block/maple_log_top",
-"particle": "autumnity:block/maple_planks"}}

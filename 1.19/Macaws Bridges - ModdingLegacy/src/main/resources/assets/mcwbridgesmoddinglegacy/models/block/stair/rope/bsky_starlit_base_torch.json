@@ -1,8 +1,0 @@
-{
-	"parent": "mcwbridges:block/stair/rope/parent/base_torch",
-	"textures": {
-		"2": "blue_skies:block/wood/starlit_planks",
-		"3": "mcwbridges:block/torch",
-	    "particle": "blue_skies:block/wood/starlit_planks"
-	}
-}
