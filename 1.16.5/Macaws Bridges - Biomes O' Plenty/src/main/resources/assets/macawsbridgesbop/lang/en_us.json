@@ -69,5 +69,7 @@
 	"block.macawsbridgesbop.palm_rope_bridge_stair": "Palm Rope Bridge Stair",
 	"block.macawsbridgesbop.redwood_rope_bridge_stair": "Redwood Rope Bridge Stair",
 	"block.macawsbridgesbop.umbran_rope_bridge_stair": "Umbran Rope Bridge Stair",
-	"block.macawsbridgesbop.willow_rope_bridge_stair": "Willow Rope Bridge Stair"
+	"block.macawsbridgesbop.willow_rope_bridge_stair": "Willow Rope Bridge Stair",
+
+	"itemGroup.macawsbridgesbop.tab": "Macaw's Bridges - BOP"
 }

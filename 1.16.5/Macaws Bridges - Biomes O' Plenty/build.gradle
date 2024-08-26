@@ -124,6 +124,7 @@ dependencies {
     implementation fg.deobf("curse.maven:biomes-o-plenty-220318:3913914")
     implementation fg.deobf("curse.maven:macaws-bridges-351725:5465206")
     implementation fg.deobf("curse.maven:jei-238222:5065656")
+    implementation fg.deobf("curse.maven:addonslib-1090999:5663860")
     // Real mod deobf dependency examples - these get remapped to your current mappings
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency
     // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}") // Adds the full JEI mod as a runtime dependency
